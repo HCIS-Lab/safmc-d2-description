@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+    <model name="large_pillar_obstacle">
+        <pose>0 0 0 0 0 0</pose>
+        <static>true</static>
+        <link name="link">
+
+            <collision name="collision">
+                <pose>0 0 1.0 0 0 0</pose>
+                <geometry>
+                    <cylinder>
+                        <radius>0.75</radius>
+                        <length>2.0</length>
+                    </cylinder>
+                </geometry>
+            </collision>
+
+
+            <visual name="visual">
+                <pose>0 0 1.0 0 0 0</pose>
+                <geometry>
+                    <cylinder>
+                        <radius>0.75</radius>
+                        <length>2.0</length>
+                    </cylinder>
+                </geometry>
+                <material>
+                    <ambient>1.0 0 0 1</ambient>
+                    <diffuse>1.0 0 0 1</diffuse>
+                    <specular>1.0 0 0 1</specular>
+                </material>
+            </visual>
+
+        </link>
+    </model>
+</sdf>

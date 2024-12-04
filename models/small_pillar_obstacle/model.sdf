@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <sdf version="1.7">
     <model name="small_pillar_obstacle">
-        <pose>0 0 1.0 0 0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <static>true</static>
         <link name="link">
             <collision name="base_collision">
-                <pose>0 0 -0.925 0 0 0</pose>
+                <pose>0 0 0.075 0 0 0</pose>
                 <geometry>
                     <cylinder>
                         <radius>0.25</radius>
@@ -15,7 +15,7 @@
             </collision>
 
             <collision name="shaft_collision">
-                <pose>0 0 0.075 0 0 0</pose>
+                <pose>0 0 1.075 0 0 0</pose>
                 <geometry>
                     <cylinder>
                         <radius>0.15</radius>
@@ -26,7 +26,7 @@
 
 
             <visual name="base_visual">
-                <pose>0 0 -0.925 0 0 0</pose>
+                <pose>0 0 0.075 0 0 0</pose>
                 <geometry>
                     <cylinder>
                         <radius>0.25</radius>
@@ -41,7 +41,7 @@
             </visual>
 
             <visual name="shaft_visual">
-                <pose>0 0 0.075 0 0 0</pose>
+                <pose>0 0 1.075 0 0 0</pose>
                 <geometry>
                     <cylinder>
                         <radius>0.15</radius>
