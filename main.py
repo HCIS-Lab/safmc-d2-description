@@ -15,7 +15,9 @@ drop_zone_coords = [
     (7.21815, 0.43991),
 ]
 
-large_pillar_obstacle_coord = (3.22409,-3.19984)
+large_pillar_obstacle_coord = (3.22409, -3.19984)
+
+bonus_zone_coord = (5.0, 8.5)
 
 def generate_small_pillar_obstacle_coords(num_coords, min_distance, x_range, y_range):
     coords = []
@@ -28,9 +30,10 @@ def generate_small_pillar_obstacle_coords(num_coords, min_distance, x_range, y_r
             continue
         if math.dist(new_coord, large_pillar_obstacle_coord) < 2:
             continue
+        if math.dist(new_coord, bonus_zone_coord) < 5.3:
+            continue
         if any(math.dist(new_coord, coord) < 1.3 for coord in drop_zone_coords):
             continue
-        # TODO if bonus_zone
         coords.append(new_coord)
     
     return coords

@@ -1,8 +1,7 @@
 # SAFME D2
 
-![Screenshot](docs/Screenshot%20from%202024-12-05%2000-46-20.png)
+![Screenshot](docs/Screenshot%20from%202024-12-06%2001-12-12.png)
 
 ## TODO
 
-- [ ] bonus zone
-
+- [ ] random bonus zone entrance
