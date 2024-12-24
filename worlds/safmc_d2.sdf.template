@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sdf version="1.5">
-    <world name="safmc">
+    <world name="safmc_d2">
 
         <!-- Physics -->
         <physics type="ode">
