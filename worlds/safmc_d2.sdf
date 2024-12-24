@@ -80,6 +80,11 @@
       </link>
     </model>
     <include>
+      <uri>file://models/camera_test</uri>
+      <name>camera_test</name>
+      <pose>1 1 0.3 0 0 1</pose>
+    </include>
+    <include>
       <uri>file://models/wall</uri>
       <name>front_wall</name>
       <pose>0 -10.1 2 0 0 0</pose>
