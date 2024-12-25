@@ -1,9 +1,8 @@
-#!/bin/bash
-cd ~/safmc-d2-gazebo
+#!/usr/bin/sh
 
-read -p "Do you want to regenerate safmc_d2 world? (yes/no): " user_input
+read -p "Do you want to regenerate safmc_d2 world? [y/N]: " user_input
 
-if [[ "$user_input" == "yes" || "$user_input" == "y" ]]; then
+if [[ "$user_input" == "Y" || "$user_input" == "y" ]]; then
 
     echo "Regenerating the world..."
 

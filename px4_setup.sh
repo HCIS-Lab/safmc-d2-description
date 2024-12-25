@@ -1,5 +1,4 @@
-#!/bin/bash
-cd ~/safmc-d2-gazebo
+#!/usr/bin/sh
 git submodule update --init --recursive
 bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
 
