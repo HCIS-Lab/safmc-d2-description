@@ -103,6 +103,12 @@
       <pose>10.1 0 2 0 0 1.5707959999999999</pose>
       <static>true</static>
     </include>
+    <include>
+      <uri>file://models/lidar</uri>
+      <name>lidar</name>
+      <pose>5.0999999999999996 5 2 0 0 1.5707959999999999</pose>
+      <static>false</static>
+    </include>
     <model name='launch_zone'>
       <static>true</static>
       <self_collide>false</self_collide>
@@ -597,7 +603,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>8.7713609888785307 -0.84660434336129953 0 0 0 0</pose>
+      <pose>-2.1469277330775327 9.1027249735675788 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -712,7 +718,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-8.1834629077432819 2.657810709271752 0 0 0 0</pose>
+      <pose>-1.8470072651608564 3.5943811024300789 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -827,7 +833,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-2.5561687913981217 2.8902773334006664 0 0 0 0</pose>
+      <pose>-5.9714115262230472 1.4000981512748236 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -942,7 +948,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-0.6972299504893833 4.5818736677858745 0 0 0 0</pose>
+      <pose>0.1185930475598358 -3.3145634414492964 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1057,7 +1063,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>9.6436452111965565 0.53834925045613247 0 0 0 0</pose>
+      <pose>0.15369469593819218 -1.1750165712275908 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1172,7 +1178,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-2.1356118291257076 -5.8980556894881317 0 0 0 0</pose>
+      <pose>-7.9424014259009645 2.156448689293601 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1287,7 +1293,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-1.5182783360899066 -4.3750951521129444 0 0 0 0</pose>
+      <pose>3.687277213552866 -1.0726240060921981 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1402,7 +1408,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-0.10945833756294476 3.2139068888892641 0 0 0 0</pose>
+      <pose>-8.0351461349870732 3.7372583238193879 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1517,7 +1523,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>1.2080247931829042 2.749305277708828 0 0 0 0</pose>
+      <pose>-3.1371547997258382 -5.1427566022788547 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1632,7 +1638,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-1.5726376320918423 7.5161534515287745 0 0 0 0</pose>
+      <pose>9.6737312526735018 -3.7645634456606807 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1773,5 +1779,8 @@
       <origin_visual>true</origin_visual>
       <shadows>true</shadows>
     </scene>
+    <plugin name='gz::sim::systems::Sensors' filename='gz-sim-sensors-system'>
+      <render_engine>ogre2</render_engine>
+    </plugin>
   </world>
 </sdf>
