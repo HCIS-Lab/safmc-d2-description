@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <sdf version="1.7">
     <model name="camera_test">
-        <link name="camera_link">
+        <link name="camera_test/camera_visual">
             <visual name="visual">
                 <geometry>
                     <sphere>
@@ -29,7 +29,9 @@
                     <iyz>0</iyz>
                 </inertia>
             </inertial>
+        </link>
 
+        <link name="camera_test/camera_sensor">
             <!-- Camera sensor -->
             <sensor type="camera" name="camera_sensor">
                 <pose>0 0 1 -1.5708 0 0</pose> <!-- -1.5708 -> -90deg -> to bottom -->
