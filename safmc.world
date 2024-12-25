@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<sdf version="1.5">
+<sdf version="1.7">
     <world name="safmc">
 
         <!-- Physics -->
@@ -76,6 +76,14 @@
             <name>right_wall</name>
             <pose>10.1 0 2.0 0 0 1.570796</pose>
         </include>
+
+
+        <include>
+            <uri>file://models/lidar</uri>
+            <name>lidar</name>
+            <pose>5.1 5.0 2.0 0 0 1.570796</pose>
+        </include>
+
 
         <!-- Launch Zone -->
         <model name="launch_zone">
