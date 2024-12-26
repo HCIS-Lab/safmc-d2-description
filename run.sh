@@ -1,31 +1,30 @@
 #!/usr/bin/sh
 
-read -p "Do you want to regenerate safmc_d2 world? [y/N]: " user_input
+read -p "Regenerate safmc_d2 world? [y/N]: " user_input
 
-if [ "$user_input" = "Y" ] || [ "$user_input" = "y" ]; then
+if echo "$user_input" | grep -iq "^y"; then
     echo "Regenerating the world..."
-    
-    # Check for python or python3 and run the script
-    if command -v python3 &>/dev/null; then
+
+    # Check for Python (either python3 or python) and run the script
+    if command -v python3 >/dev/null; then
         python3 ./generate_world.py
-    elif command -v python &>/dev/null; then
+    elif command -v python >/dev/null; then
         python ./generate_world.py
     else
-        echo "Error: Python is not installed."
+        echo "Error: Python not found."
         exit 1
     fi
-    
-    echo "World regeneration completed."
+
+    echo "World regenerated."
 else
-    echo "World regeneration skipped."
+    echo "Skipped."
 fi
 
+# Copy models and world files to the appropriate directories
+echo "Copying models and world files..."
+cp -r ./models/* ./PX4-Autopilot/Tools/simulation/gz/models
+cp ./worlds/safmc_d2.sdf ./PX4-Autopilot/Tools/simulation/gz/worlds
 
-chmod +x px4_setup.sh
-./px4_setup.sh || { 
-  echo "Error: Failed to run ./setup_px4."; 
-  exit 1; 
-}
-
+# Run PX4 Autopilot
 cd PX4-Autopilot
-PX4_GZ_WORLD=safmc_d2 make px4_sitl gz_x500
+make px4_sitl gz_x500
