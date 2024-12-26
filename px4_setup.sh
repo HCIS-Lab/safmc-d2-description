@@ -16,7 +16,5 @@ else
   echo "$WORLD_NAME has been added to $CMAKELIST_FILE."
 fi
 
-#add this to access model and world created by us
-export GZ_SIM_RESOURCE_PATH="$HOME/safmc-d2-gazebo/PX4-Autopilot/Tools/simulation/gz"
 
 

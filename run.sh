@@ -7,9 +7,9 @@ if [ "$user_input" = "Y" ] || [ "$user_input" = "y" ]; then
     
     # Check for python or python3 and run the script
     if command -v python3 &>/dev/null; then
-        python3 ./main.py
+        python3 ./generate_world.py
     elif command -v python &>/dev/null; then
-        python ./main.py
+        python ./generate_world.py
     else
         echo "Error: Python is not installed."
         exit 1
