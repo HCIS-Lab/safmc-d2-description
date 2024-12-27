@@ -5,7 +5,7 @@ import random
 
 from gz.math7 import Vector3d, Pose3d
 
-world_file = './safmc.world'
+world_file = './worlds/safmc_d2.sdf.template'
 
 num_small_pillar_obstacles = 10
 
@@ -86,7 +86,7 @@ def main():
         small_pillar_obstacle_model.set_raw_pose(Pose3d(small_pillar_obstacle_coords[i][0], small_pillar_obstacle_coords[i][1], 0, 0, 0, 0))
         world.add_model(small_pillar_obstacle_model)
 
-    with open('new.world', "w") as f:
+    with open('worlds/safmc_d2.sdf', "w") as f:
         f.write(root.to_string())
 
 if __name__ == "__main__":

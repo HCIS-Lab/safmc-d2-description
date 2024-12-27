@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
-<sdf version="1.11">
-    <world name="safmc">
+<sdf version="1.5">
+    <world name="safmc_d2">
 
         <!-- Physics -->
-        <physics name="1ms" type="ignored">
-            <max_step_size>0.001</max_step_size>
+        <physics type="ode">
+            <max_step_size>0.004</max_step_size>
             <real_time_factor>1.0</real_time_factor>
+            <real_time_update_rate>250</real_time_update_rate>
         </physics>
 
         <!-- Sun -->
@@ -75,14 +76,6 @@
             <name>right_wall</name>
             <pose>10.1 0 2.0 0 0 1.570796</pose>
         </include>
-
-
-        <include>
-            <uri>file://models/lidar</uri>
-            <name>lidar</name>
-            <pose>5.1 5.0 2.0 0 0 1.570796</pose>
-        </include>
-
 
         <!-- Launch Zone -->
         <model name="launch_zone">
@@ -163,25 +156,6 @@
             <name>bonus_zone</name>
             <pose>5.0 8.5 1.0 0 0 0</pose>
         </include>
-
-        <!-- Plugins -->
-        <plugin
-            filename="gz-sim-physics-system"
-            name="gz::sim::systems::Physics">
-        </plugin>
-        <plugin
-            filename="gz-sim-user-commands-system"
-            name="gz::sim::systems::UserCommands">
-        </plugin>
-        <plugin
-            filename="gz-sim-scene-broadcaster-system"
-            name="gz::sim::systems::SceneBroadcaster">
-        </plugin>
-        <plugin
-            filename="gz-sim-sensors-system"
-            name="gz::sim::systems::Sensors">
-            <render_engine>ogre2</render_engine>
-        </plugin>
 
     </world>
 </sdf>
