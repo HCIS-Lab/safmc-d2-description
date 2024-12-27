@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<sdf version="1.11">
+    <world name="safmc">
+
+        <!-- Physics -->
+        <physics name="1ms" type="ignored">
+            <max_step_size>0.001</max_step_size>
+            <real_time_factor>1.0</real_time_factor>
+        </physics>
+
+        <!-- Sun -->
+        <light type="directional" name="sun">
+            <cast_shadows>true</cast_shadows>
+            <pose>0 0 10 0 0 0</pose>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <attenuation>
+                <range>1000</range>
+                <constant>0.9</constant>
+                <linear>0.01</linear>
+                <quadratic>0.001</quadratic>
+            </attenuation>
+            <direction>-0.5 0.1 -0.9</direction>
+        </light>
+
+        <!-- Ground -->
+        <model name="ground_plane">
+            <static>true</static>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                            <size>25.0 25.0</size>
+                        </plane>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                            <size>25.0 25.0</size>
+                        </plane>
+                    </geometry>
+                    <material>
+                        <ambient>0.8 0.8 0.8 1</ambient>
+                        <diffuse>0.8 0.8 0.8 1</diffuse>
+                        <specular>0.8 0.8 0.8 1</specular>
+                    </material>
+                </visual>
+            </link>
+        </model>
+
+        <!-- Walls -->
+        <include>
+            <uri>file://models/wall</uri>
+            <name>front_wall</name>
+            <pose>0 -10.1 2.0 0 0 0</pose>
+        </include>
+
+        <include>
+            <uri>file://models/wall</uri>
+            <name>back_wall</name>
+            <pose>0 10.1 2.0 0 0 0</pose>
+        </include>
+
+        <include>
+            <uri>file://models/wall</uri>
+            <name>left_wall</name>
+            <pose>-10.1 0 2.0 0 0 1.570796</pose>
+        </include>
+
+        <include>
+            <uri>file://models/wall</uri>
+            <name>right_wall</name>
+            <pose>10.1 0 2.0 0 0 1.570796</pose>
+        </include>
+
+
+        <include>
+            <uri>file://models/lidar</uri>
+            <name>lidar</name>
+            <pose>5.1 5.0 2.0 0 0 1.570796</pose>
+        </include>
+
+
+        <!-- Launch Zone -->
+        <model name="launch_zone">
+            <pose>0 -9.0 0.001 0 0 0</pose>
+            <static>true</static>
+            <link name="link">
+                <visual name="visual">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                            <size>4.0 2.0</size>
+                        </plane>
+                    </geometry>
+                    <material>
+                        <ambient>1 0.75 0 1</ambient>
+                        <diffuse>1 0.75 0 1</diffuse>
+                        <specular>1 0.75 0 1</specular>
+                    </material>
+                </visual>
+            </link>
+        </model>
+
+        <!-- Supply Zone -->
+        <model name="green_supply_zone">
+            <pose>-6.0 -9.0 0 0 0 0</pose>
+            <static>true</static>
+            <link name="link">
+                <pose>0 0 0.001 0 0 0</pose>
+                <visual name="visual">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                            <size>8.0 2.0</size>
+                        </plane>
+                    </geometry>
+                    <material>
+                        <ambient>0 1 0 1</ambient>
+                        <diffuse>0 1 0 1</diffuse>
+                        <specular>0 1 0 1</specular>
+                    </material>
+                </visual>
+            </link>
+        </model>
+
+        <model name="blue_supply_zone">
+            <pose>6.0 -9.0 0 0 0 0</pose>
+            <static>true</static>
+            <link name="link">
+                <pose>0 0 0.001 0 0 0</pose>
+                <visual name="visual">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                            <size>8.0 2.0</size>
+                        </plane>
+                    </geometry>
+                    <material>
+                        <ambient>0 0 1 1</ambient>
+                        <diffuse>0 0 1 1</diffuse>
+                        <specular>0 0 1 1</specular>
+                    </material>
+                </visual>
+            </link>
+        </model>
+
+        <!-- Drop Zone -->
+        <!-- generated by script -->
+
+        <!-- Small Pillar Obstacles -->
+        <!-- generated by script -->
+
+        <!-- Large Pillar Obstacles -->
+        <!-- generated by script -->
+
+        <!-- Bonus Zone -->
+        <include>
+            <uri>file://models/bonus_zone</uri>
+            <name>bonus_zone</name>
+            <pose>5.0 8.5 1.0 0 0 0</pose>
+        </include>
+
+        <!-- Plugins -->
+        <plugin
+            filename="gz-sim-physics-system"
+            name="gz::sim::systems::Physics">
+        </plugin>
+        <plugin
+            filename="gz-sim-user-commands-system"
+            name="gz::sim::systems::UserCommands">
+        </plugin>
+        <plugin
+            filename="gz-sim-scene-broadcaster-system"
+            name="gz::sim::systems::SceneBroadcaster">
+        </plugin>
+        <plugin
+            filename="gz-sim-sensors-system"
+            name="gz::sim::systems::Sensors">
+            <render_engine>ogre2</render_engine>
+        </plugin>
+
+    </world>
+</sdf>
