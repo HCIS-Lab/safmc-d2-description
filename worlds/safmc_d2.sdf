@@ -74,7 +74,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -102,11 +102,6 @@
       <name>right_wall</name>
       <pose>10.1 0 2 0 0 1.5707959999999999</pose>
       <static>true</static>
-    </include>
-    <include>
-      <uri>file://models/lidar</uri>
-      <name>lidar</name>
-      <pose>5.1 5.0 2.0 0 0 1.570796</pose>
     </include>
     <model name='launch_zone'>
       <static>true</static>
@@ -149,7 +144,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -195,7 +190,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -241,7 +236,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -293,7 +288,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
         <visual name='green_hotspot_visual'>
@@ -316,7 +311,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
         <visual name='blue_hotspot_visual'>
@@ -339,7 +334,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -385,7 +380,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
         <visual name='green_hotspot_visual'>
@@ -408,7 +403,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
         <visual name='blue_hotspot_visual'>
@@ -431,7 +426,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -477,7 +472,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
         <visual name='green_hotspot_visual'>
@@ -500,7 +495,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
         <visual name='blue_hotspot_visual'>
@@ -523,7 +518,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -592,7 +587,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -684,7 +679,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -707,7 +702,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -799,7 +794,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -822,7 +817,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -914,7 +909,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -937,7 +932,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -1029,7 +1024,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -1052,7 +1047,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -1144,7 +1139,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -1167,7 +1162,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -1259,7 +1254,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -1282,7 +1277,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -1374,7 +1369,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -1397,7 +1392,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -1489,7 +1484,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -1512,7 +1507,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -1604,7 +1599,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -1627,7 +1622,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -1719,7 +1714,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -1742,7 +1737,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel' />
+            <shader type='pixel'/>
           </material>
         </visual>
       </link>
@@ -1778,26 +1773,5 @@
       <origin_visual>true</origin_visual>
       <shadows>true</shadows>
     </scene>
-
-
-    <!-- Plugins -->
-    <plugin
-      filename="gz-sim-physics-system"
-      name="gz::sim::systems::Physics">
-    </plugin>
-    <plugin
-      filename="gz-sim-user-commands-system"
-      name="gz::sim::systems::UserCommands">
-    </plugin>
-    <plugin
-      filename="gz-sim-scene-broadcaster-system"
-      name="gz::sim::systems::SceneBroadcaster">
-    </plugin>
-    <plugin
-      filename="gz-sim-sensors-system"
-      name="gz::sim::systems::Sensors">
-      <render_engine>ogre2</render_engine>
-    </plugin>
-
   </world>
 </sdf>
