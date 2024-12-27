@@ -1,51 +1,11 @@
 <?xml version="1.0"?>
-<sdf version="1.7">
+<sdf version="1.11">
     <model name="velodyne_hdl-32">
-        <link name="base">
-            <pose>0 0 0.029335 0 0 0</pose>
-            <inertial>
-                <mass>1.2</mass>
-                <inertia>
-                    <ixx>0.001087473</ixx>
-                    <iyy>0.001087473</iyy>
-                    <izz>0.001092437</izz>
-                    <ixy>0</ixy>
-                    <ixz>0</ixz>
-                    <iyz>0</iyz>
-                </inertia>
-            </inertial>
-            <collision name="base_collision">
-                <geometry>
-                    <cylinder>
-                        <radius>.04267</radius>
-                        <length>.05867</length>
-                    </cylinder>
-                </geometry>
-            </collision>
-            <visual name="base_visual">
-                <geometry>
-                    <cylinder>
-                        <radius>.04267</radius>
-                        <length>.05867</length>
-                    </cylinder>
-                </geometry>
-            </visual>
-        </link>
 
         <link name="top">
-
             <pose>0 0 0.095455 0 0 0</pose>
-            <inertial>
-                <mass>0.1</mass>
-                <inertia>
-                    <ixx>0.000090623</ixx>
-                    <iyy>0.000090623</iyy>
-                    <izz>0.000091036</izz>
-                    <ixy>0</ixy>
-                    <ixz>0</ixz>
-                    <iyz>0</iyz>
-                </inertia>
-            </inertial>
+
+            <!-- !!!MUST!!! visuals and collision for gazebo visualization and physics-->
             <collision name="top_collision">
                 <geometry>
                     <cylinder>
@@ -68,20 +28,27 @@
                 <pose>0 0 -0.004645 1.5707 0 0</pose>
             </frame>
 
+            <!-- Lidar -->
             <sensor name='gpu_lidar' type='gpu_lidar'>
 
                 <pose relative_to='lidar_frame'>0 0 0 0 0 0</pose>
+                <!-- topic name specified here will show on "gz topic -l" -->
                 <topic>lidar</topic>
                 <update_rate>10</update_rate>
 
+                <!-- Lidar config -->
                 <ray>
                     <scan>
+
+                        <!-- 1080 horizontal axis samples -->
                         <horizontal>
                             <samples>1080</samples>
                             <resolution>1</resolution>
                             <min_angle>-1.57079633</min_angle>
                             <max_angle>1.57079633</max_angle>
                         </horizontal>
+
+                        <!-- 1 vertical axis sample -->
                         <vertical>
                             <samples>1</samples>
                             <resolution>0.01</resolution>
@@ -89,6 +56,8 @@
                             <max_angle>0</max_angle>
                         </vertical>
                     </scan>
+
+                    <!-- Will only accept data in range 0.08 ~ 10.0 -->
                     <range>
                         <min>0.08</min>
                         <max>10.0</max>
@@ -103,24 +72,5 @@
 
         </link>
 
-        <joint type="revolute" name="joint">
-
-            <pose>0 0 -0.036785 0 0 0</pose>
-
-            <parent>base</parent>
-
-            <child>top</child>
-
-            <axis>
-
-                <xyz>0 0 1</xyz>
-
-                <limit>
-
-                    <lower>-10000000000000000</lower>
-                    <upper>10000000000000000</upper>
-                </limit>
-            </axis>
-        </joint>
     </model>
 </sdf>
