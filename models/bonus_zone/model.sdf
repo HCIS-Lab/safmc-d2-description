@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+    <model name="bonus_zone">
+        <pose>0 0 0 0 0 0</pose>
+        <static>true</static>
+        <link name="link">
+
+            <collision name="bonus_zone_left_wall_collision">
+                <pose>-5.0 0 0 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>0.05 3.0 2.0 0 0 0</size>
+                    </box>
+                </geometry>
+            </collision>
+
+            <collision name="bonus_zone_right_wall_collision">
+                <pose>5.0 0 0 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>0.05 3.0 2.0 0 0 0</size>
+                    </box>
+                </geometry>
+            </collision>
+
+            <collision name="bonus_zone_front_wall_left_part_collision">
+                <pose>-3.5 -1.5 0 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>3.0 0.05 2.0 0 0 0</size>
+                    </box>
+                </geometry>
+            </collision>
+
+            <collision name="bonus_zone_front_wall_right_part_collision">
+                <pose>2.5 -1.5 0 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>5.0 0.05 2.0 0 0 0</size>
+                    </box>
+                </geometry>
+            </collision>
+
+            <collision name="bonus_zone_back_wall_collision">
+                <pose>0 1.5 0 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>10.0 0.05 2.0 0 0 0</size>
+                    </box>
+                </geometry>
+            </collision>
+
+            <collision name="bonus_zone_high_beam_collision">
+                <pose>-1.0 -1.25 0.75 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>2.0 0.5 0.5 0 0 0</size>
+                    </box>
+                </geometry>
+            </collision>
+
+            <visual name="bonus_zone_left_wall_visual">
+                <pose>-5.0 0 0 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>0.05 3.0 2.0 0 0 0</size>
+                    </box>
+                </geometry>
+                <material>
+                    <ambient>1.0 0.8 0.4 1.0</ambient>
+                    <diffuse>1.0 0.8 0.4 1.0</diffuse>
+                    <specular>1.0 0.8 0.4 1.0</specular>
+                </material>
+            </visual>
+
+            <visual name="bonus_zone_right_wall_visual">
+                <pose>5.0 0 0 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>0.05 3.0 2.0 0 0 0</size>
+                    </box>
+                </geometry>
+                <material>
+                    <ambient>1.0 0.8 0.4 1.0</ambient>
+                    <diffuse>1.0 0.8 0.4 1.0</diffuse>
+                    <specular>1.0 0.8 0.4 1.0</specular>
+                </material>
+            </visual>
+
+            <visual name="bonus_zone_front_wall_left_part_visual">
+                <pose>-3.5 -1.5 0 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>3.0 0.05 2.0 0 0 0</size>
+                    </box>
+                </geometry>
+                <material>
+                    <ambient>1.0 0.8 0.4 1.0</ambient>
+                    <diffuse>1.0 0.8 0.4 1.0</diffuse>
+                    <specular>1.0 0.8 0.4 1.0</specular>
+                </material>
+            </visual>
+
+            <visual name="bonus_zone_front_wall_right_part_visual">
+                <pose>2.5 -1.5 0 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>5.0 0.05 2.0 0 0 0</size>
+                    </box>
+                </geometry>
+                <material>
+                    <ambient>1.0 0.8 0.4 1.0</ambient>
+                    <diffuse>1.0 0.8 0.4 1.0</diffuse>
+                    <specular>1.0 0.8 0.4 1.0</specular>
+                </material>
+            </visual>
+
+            <visual name="bonus_zone_back_wall_visual">
+                <pose>0 1.5 0 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>10.0 0.05 2.0 0 0 0</size>
+                    </box>
+                </geometry>
+                <material>
+                    <ambient>1.0 0.8 0.4 1.0</ambient>
+                    <diffuse>1.0 0.8 0.4 1.0</diffuse>
+                    <specular>1.0 0.8 0.4 1.0</specular>
+                </material>
+            </visual>
+
+            <visual name="bonus_zone_high_beam_visual">
+                <pose>-1.0 -1.25 0.75 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>2.0 0.5 0.5 0 0 0</size>
+                    </box>
+                </geometry>
+                <material>
+                    <ambient>0.5 0 1.0 1.0</ambient>
+                    <diffuse>0.5 0 1.0 1.0</diffuse>
+                    <specular>0.5 0 1.0 1.0</specular>
+                </material>
+            </visual>
+
+        </link>
+    </model>
+</sdf>
