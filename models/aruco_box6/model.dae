@@ -78,7 +78,7 @@
   </library_lights>
   <library_images>
     <image id="aruco_png" name="aruco_png">
-      <init_from>model://textures/marker_6.png</init_from>
+      <init_from>model://textures/marker_06.png</init_from>
     </image>
   </library_images>
 
