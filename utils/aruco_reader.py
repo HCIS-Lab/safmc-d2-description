@@ -7,34 +7,26 @@
 #####################################################################
 
 import cv2
+import numpy as np
+from typing import List
 
-def main():
-    frame = cv2.imread("aruco_0.png") # Replace this with the path to your target image file
-
-    if frame is None:
-        print("Unable to read the image file")
-        return
-
+def identify_aruco(frame: np.ndarray)->List[int]:
     dictionary = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_5X5_50)
     parameters = cv2.aruco.DetectorParameters()
     detector = cv2.aruco.ArucoDetector(dictionary, parameters)
 
-    show_image = False  # Whether to display the image
+    show_image = False  # Whether to display the image, only use for debug, can be removed when changing to ROS node
+    
+    markerCorners, markerIds, rejectedCandidates = detector.detectMarkers(frame) # Detect ArUco markers
 
-    # Detect ArUco markers
-    markerCorners, markerIds, rejectedCandidates = detector.detectMarkers(frame)
-
-    # If markers are detected
-    if markerIds is not None:
+    id = [] # if aruco aren't detected, returns will be []
+    
+    if markerIds is not None: # If markers are detected
         for i, corner in enumerate(markerCorners):
-            id = markerIds[i][0]
-            print(f"Detected ArUco marker ID: {id}")
+            id.append(int(markerIds[i][0]))
 
         if show_image:
             cv2.aruco.drawDetectedMarkers(frame, markerCorners, markerIds)
-
-    else:
-        print("No ArUco markers detected")
 
     if show_image:
         cv2.imshow('ArUco Detection', frame)
@@ -42,5 +34,16 @@ def main():
 
     cv2.destroyAllWindows()
 
+    return id
+
 if __name__ == "__main__":
-    main()
+    frame = cv2.imread("aruco_0.png") # Replace this with the path to your target image file
+
+    if frame is None:
+        print("Unable to read the image file")
+    else:
+        id = identify_aruco(frame)
+        if id == []:
+            print("No ArUco markers detected")
+        else:
+            print(f"Detected ArUco marker ID: {id}")
