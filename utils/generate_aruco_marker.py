@@ -32,7 +32,7 @@ def main():
     for id in range(args.num_marker):
         marker_image = aruco.generateImageMarker(
             marker_dict, id, args.marker_size)
-        imwrite(f"markers/marker_{id}.png", marker_image)
+        imwrite(f"textures/marker_{id:02d}.png", marker_image)
 
 
 if __name__ == "__main__":
