@@ -159,73 +159,73 @@
 
         <!-- Payloads -->
         <include>
-            <uri>model://models/aruco_box1</uri>
+            <uri>model://aruco_box1</uri>
             <name>payload1</name>
             <pose>-8 -9 0 0 0 0</pose>
             <static>true</static>
         </include>
         <include>
-            <uri>model://models/aruco_box2</uri>
+            <uri>model://aruco_box2</uri>
             <name>payload2</name>
             <pose>-7 -9 0 0 0 0</pose>
             <static>true</static>
         </include>
         <include>
-            <uri>model://models/aruco_box3</uri>
+            <uri>model://aruco_box3</uri>
             <name>payload3</name>
             <pose>-6 -9 0 0 0 0</pose>
             <static>true</static>
         </include>
         <include>
-            <uri>model://models/aruco_box4</uri>
+            <uri>model://aruco_box4</uri>
             <name>payload4</name>
             <pose>-5 -9 0 0 0 0</pose>
             <static>true</static>
         </include>
         <include>
-            <uri>model://models/aruco_box5</uri>
+            <uri>model://aruco_box5</uri>
             <name>payload5</name>
             <pose>-4 -9 0 0 0 0</pose>
             <static>true</static>
         </include>
         <include>
-            <uri>model://models/aruco_box6</uri>
+            <uri>model://aruco_box6</uri>
             <name>payload6</name>
             <pose>-3 -9 0 0 0 0</pose>
             <static>true</static>
         </include>
         <include>
-            <uri>model://models/aruco_box7</uri>
+            <uri>model://aruco_box7</uri>
             <name>payload7</name>
             <pose>3 -9 0 0 0 0</pose>
             <static>true</static>
         </include>
         <include>
-            <uri>model://models/aruco_box8</uri>
+            <uri>model://aruco_box8</uri>
             <name>payload8</name>
             <pose>4 -9 0 0 0 0</pose>
             <static>true</static>
         </include>
         <include>
-            <uri>model://models/aruco_box9</uri>
+            <uri>model://aruco_box9</uri>
             <name>payload9</name>
             <pose>5 -9 0 0 0 0</pose>
             <static>true</static>
         </include>
         <include>
-            <uri>model://models/aruco_box10</uri>
+            <uri>model://aruco_box10</uri>
             <name>payload10</name>
             <pose>6 -9 0 0 0 0</pose>
             <static>true</static>
         </include>
         <include>
-            <uri>model://models/aruco_box11</uri>
+            <uri>model://aruco_box11</uri>
             <name>payload11</name>
             <pose>7 -9 0 0 0 0</pose>
             <static>true</static>
         </include>
         <include>
-            <uri>model://models/aruco_box12</uri>
+            <uri>model://aruco_box12</uri>
             <name>payload12</name>
             <pose>8 -9 0 0 0 0</pose>
             <static>true</static>
