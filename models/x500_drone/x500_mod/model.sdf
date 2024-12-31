@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version='1.7'>
+  <model name='x500_mod'>
+    <include merge='true'>
+      <uri>file://models/x500_drone/x500</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <include merge='true' name="camera">
+      <uri>file://models/camera_pi3cam</uri>
+      <pose>0 0 0.188 0 0 0</pose>
+    </include>
+    <joint name="camera_joint" type="fixed">
+      <parent>base_link</parent>
+      <child>camera_link</child>
+      <pose>0 0 0.188 0 0 0</pose>
+    </joint>
+  </model>
+</sdf>
