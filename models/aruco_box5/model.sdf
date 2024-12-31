@@ -3,11 +3,14 @@
   <model name='aruco_box'>
     <pose>0 0 0 0 0 0</pose>
     <link name='link'>
-      <collision name='collision'>
+      <inertial auto="true" />
+      <collision name="collision">
+        <density>212.5</density>
         <geometry>
-          <box>
-            <size>1 1 1</size>
-          </box>
+          <mesh>
+            <uri>model://models/aruco_box5/model.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
         </geometry>
       </collision>
       <visual name='aruco_box_mesh'>
