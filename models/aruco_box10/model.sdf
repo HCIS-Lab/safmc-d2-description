@@ -8,7 +8,7 @@
         <density>212.5</density>
         <geometry>
           <mesh>
-            <uri>model://models/aruco_box10/model.dae</uri>
+            <uri>model://aruco_box10/model.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -16,7 +16,7 @@
       <visual name='aruco_box_mesh'>
         <geometry>
           <mesh>
-            <uri>model://models/aruco_box10/model.dae</uri>
+            <uri>model://aruco_box10/model.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>

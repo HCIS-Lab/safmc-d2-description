@@ -1,6 +1,6 @@
 #!/usr/bin/sh
 
-export GZ_SIM_RESOURCE_PATH="$(pwd)/PX4-Autopilot/Tools/simulation/gz"
+export GZ_SIM_RESOURCE_PATH=$(pwd)/models:$(pwd)/worlds
 export PX4_GZ_WORLD="safmc_d2"
 
 git submodule update --init --recursive

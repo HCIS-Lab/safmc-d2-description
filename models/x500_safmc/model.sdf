@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sdf version='1.11'>
-  <model name='x500_mod'>
+  <model name='x500_safmc'>
     <include merge='true'>
-      <uri>model://x500_drone/x500</uri>
+      <uri>model://x500</uri>
       <pose>0 0 0 0 0 0</pose>
     </include>
     <include merge='true'>
