@@ -80,25 +80,25 @@
       </link>
     </model>
     <include>
-      <uri>file://models/wall</uri>
+      <uri>model://wall</uri>
       <name>front_wall</name>
       <pose>0 -10.1 2 0 0 0</pose>
       <static>true</static>
     </include>
     <include>
-      <uri>file://models/wall</uri>
+      <uri>model://wall</uri>
       <name>back_wall</name>
       <pose>0 10.1 2 0 0 0</pose>
       <static>true</static>
     </include>
     <include>
-      <uri>file://models/wall</uri>
+      <uri>model://wall</uri>
       <name>left_wall</name>
       <pose>-10.1 0 2 0 0 1.5707959999999999</pose>
       <static>true</static>
     </include>
     <include>
-      <uri>file://models/wall</uri>
+      <uri>model://wall</uri>
       <name>right_wall</name>
       <pose>10.1 0 2 0 0 1.5707959999999999</pose>
       <static>true</static>
@@ -242,7 +242,7 @@
       </link>
     </model>
     <include>
-      <uri>file://models/bonus_zone</uri>
+      <uri>model://bonus_zone</uri>
       <name>bonus_zone</name>
       <pose>5 8.5 1 0 0 0</pose>
       <static>true</static>
