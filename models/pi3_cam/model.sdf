@@ -2,7 +2,6 @@
 <sdf version="1.11">
     <model name="camera">
         <link name="camera_link">
-            <!-- <link name="camera/camera_visual"> -->
             <visual name="visual">
                 <geometry>
                     <box>
@@ -35,9 +34,8 @@
                     <iyz>0</iyz>
                 </inertia>
             </inertial>
-            <!-- </link> -->
 
-            <!-- <link name="camera/camera_sensor"> -->
+
             <sensor type="camera" name="camera">
                 <pose>0 0 0 0 -1.5708 0</pose> <!-- -1.5708 -> -90deg -> to bottom -->
 
@@ -64,7 +62,6 @@
                     <render_engine>ogre2</render_engine>
                 </plugin>
             </sensor>
-            <!-- </link> -->
         </link>
     </model>
 </sdf>
