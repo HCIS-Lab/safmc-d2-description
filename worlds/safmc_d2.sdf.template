@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<sdf version="1.5">
+<sdf version='1.11'>
     <world name="safmc_d2">
 
         <!-- Physics -->
@@ -98,7 +98,7 @@
             </link>
         </model>
 
-        <!-- Supply Zone -->
+        <!-- Supply Zones -->
         <model name="green_supply_zone">
             <pose>-6.0 -9.0 0 0 0 0</pose>
             <static>true</static>
@@ -155,6 +155,80 @@
             <uri>model://bonus_zone</uri>
             <name>bonus_zone</name>
             <pose>5.0 8.5 1.0 0 0 0</pose>
+        </include>
+
+        <!-- Payloads -->
+        <include>
+            <uri>model://models/aruco_box1</uri>
+            <name>payload1</name>
+            <pose>-8 -9 0 0 0 0</pose>
+            <static>true</static>
+        </include>
+        <include>
+            <uri>model://models/aruco_box2</uri>
+            <name>payload2</name>
+            <pose>-7 -9 0 0 0 0</pose>
+            <static>true</static>
+        </include>
+        <include>
+            <uri>model://models/aruco_box3</uri>
+            <name>payload3</name>
+            <pose>-6 -9 0 0 0 0</pose>
+            <static>true</static>
+        </include>
+        <include>
+            <uri>model://models/aruco_box4</uri>
+            <name>payload4</name>
+            <pose>-5 -9 0 0 0 0</pose>
+            <static>true</static>
+        </include>
+        <include>
+            <uri>model://models/aruco_box5</uri>
+            <name>payload5</name>
+            <pose>-4 -9 0 0 0 0</pose>
+            <static>true</static>
+        </include>
+        <include>
+            <uri>model://models/aruco_box6</uri>
+            <name>payload6</name>
+            <pose>-3 -9 0 0 0 0</pose>
+            <static>true</static>
+        </include>
+        <include>
+            <uri>model://models/aruco_box7</uri>
+            <name>payload7</name>
+            <pose>3 -9 0 0 0 0</pose>
+            <static>true</static>
+        </include>
+        <include>
+            <uri>model://models/aruco_box8</uri>
+            <name>payload8</name>
+            <pose>4 -9 0 0 0 0</pose>
+            <static>true</static>
+        </include>
+        <include>
+            <uri>model://models/aruco_box9</uri>
+            <name>payload9</name>
+            <pose>5 -9 0 0 0 0</pose>
+            <static>true</static>
+        </include>
+        <include>
+            <uri>model://models/aruco_box10</uri>
+            <name>payload10</name>
+            <pose>6 -9 0 0 0 0</pose>
+            <static>true</static>
+        </include>
+        <include>
+            <uri>model://models/aruco_box11</uri>
+            <name>payload11</name>
+            <pose>7 -9 0 0 0 0</pose>
+            <static>true</static>
+        </include>
+        <include>
+            <uri>model://models/aruco_box12</uri>
+            <name>payload12</name>
+            <pose>8 -9 0 0 0 0</pose>
+            <static>true</static>
         </include>
 
     </world>
