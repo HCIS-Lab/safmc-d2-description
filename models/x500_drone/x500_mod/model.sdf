@@ -6,7 +6,7 @@
       <pose>0 0 0 0 0 0</pose>
     </include>
     <include merge='true'>
-      <uri>model://camera_pi3cam</uri>
+      <uri>model://pi3_cam</uri>
       <pose>0 0 0.065 0 0 0</pose>
     </include>
     <joint name='camera_joint' type='fixed'>
