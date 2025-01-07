@@ -248,74 +248,74 @@
       <static>true</static>
     </include>
     <include>
-      <uri>model://aruco_box1</uri>
-      <name>payload1</name>
+      <uri>model://payload_01</uri>
+      <name>payload_01</name>
       <pose>-8 -9 0 0 0 0</pose>
       <static>true</static>
     </include>
     <include>
-      <uri>model://aruco_box2</uri>
-      <name>payload2</name>
+      <uri>model://payload_02</uri>
+      <name>payload_02</name>
       <pose>-7 -9 0 0 0 0</pose>
       <static>true</static>
     </include>
     <include>
-      <uri>model://aruco_box3</uri>
-      <name>payload3</name>
+      <uri>model://payload_03</uri>
+      <name>payload_03</name>
       <pose>-6 -9 0 0 0 0</pose>
       <static>true</static>
     </include>
     <include>
-      <uri>model://aruco_box4</uri>
-      <name>payload4</name>
+      <uri>model://payload_04</uri>
+      <name>payload_04</name>
       <pose>-5 -9 0 0 0 0</pose>
       <static>true</static>
     </include>
     <include>
-      <uri>model://aruco_box5</uri>
-      <name>payload5</name>
+      <uri>model://payload_05</uri>
+      <name>payload_05</name>
       <pose>-4 -9 0 0 0 0</pose>
       <static>true</static>
     </include>
     <include>
-      <uri>model://aruco_box6</uri>
-      <name>payload6</name>
+      <uri>model://payload_06</uri>
+      <name>payload_06</name>
       <pose>-3 -9 0 0 0 0</pose>
       <static>true</static>
     </include>
     <include>
-      <uri>model://aruco_box7</uri>
-      <name>payload7</name>
+      <uri>model://payload_07</uri>
+      <name>payload_07</name>
       <pose>3 -9 0 0 0 0</pose>
       <static>true</static>
     </include>
     <include>
-      <uri>model://aruco_box8</uri>
-      <name>payload8</name>
+      <uri>model://payload_08</uri>
+      <name>payload_08</name>
       <pose>4 -9 0 0 0 0</pose>
       <static>true</static>
     </include>
     <include>
-      <uri>model://aruco_box9</uri>
-      <name>payload9</name>
+      <uri>model://payload_09</uri>
+      <name>payload_09</name>
       <pose>5 -9 0 0 0 0</pose>
       <static>true</static>
     </include>
     <include>
-      <uri>model://aruco_box10</uri>
-      <name>payload10</name>
+      <uri>model://payload_10</uri>
+      <name>payload_10</name>
       <pose>6 -9 0 0 0 0</pose>
       <static>true</static>
     </include>
     <include>
-      <uri>model://aruco_box11</uri>
-      <name>payload11</name>
+      <uri>model://payload_11</uri>
+      <name>payload_11</name>
       <pose>7 -9 0 0 0 0</pose>
       <static>true</static>
     </include>
     <include>
-      <uri>model://aruco_box12</uri>
-      <name>payload12</name>
+      <uri>model://payload_12</uri>
+      <name>payload_12</name>
       <pose>8 -9 0 0 0 0</pose>
       <static>true</static>
     </include>
@@ -669,7 +669,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>9.7980814547353816 0.70283804138436246 0 0 0 0</pose>
+      <pose>-2.7594316854002994 -5.6332002232500216 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -784,7 +784,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-3.4019102641979355 -1.8786720393462524 0 0 0 0</pose>
+      <pose>8.916910135899073 -2.3453473141154131 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -899,7 +899,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>4.4043704683934966 -0.1617228881563495 0 0 0 0</pose>
+      <pose>8.5932166406115265 -4.5561593720117433 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1014,7 +1014,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>4.2954501311603988 -5.6047251511044536 0 0 0 0</pose>
+      <pose>-8.5529072096016385 1.741586913008744 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1129,7 +1129,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>1.6894647733410793 2.0549062255023625 0 0 0 0</pose>
+      <pose>-3.4970429299075274 -2.1371878040474979 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1244,7 +1244,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>1.7018110589024715 -5.0981534633224648 0 0 0 0</pose>
+      <pose>9.8787134027585282 -1.0854864964874302 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1359,7 +1359,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-8.7725301077023747 0.16097878571055624 0 0 0 0</pose>
+      <pose>0.070569145790917887 5.5072959349212578 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1474,7 +1474,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>2.8174035796910335 2.8620787802168959 0 0 0 0</pose>
+      <pose>-7.6111033216210426 5.7464397304624093 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1589,7 +1589,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>8.3311963512226939 -4.0846417913033068 0 0 0 0</pose>
+      <pose>-2.761116317837617 7.8682911875419137 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1704,7 +1704,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>1.6726082123851977 0.22782945453828418 0 0 0 0</pose>
+      <pose>1.863711658972484 -0.94046564338816196 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
