@@ -23,7 +23,7 @@
                 </geometry>
             </collision>
 
-            <inertial>
+            <!-- <inertial>
                 <mass>1.0</mass>
                 <inertia>
                     <ixx>0.1</ixx>
@@ -33,7 +33,7 @@
                     <ixz>0</ixz>
                     <iyz>0</iyz>
                 </inertia>
-            </inertial>
+            </inertial> -->
 
 
             <sensor type="camera" name="camera">
