@@ -669,7 +669,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-2.7594316854002994 -5.6332002232500216 0 0 0 0</pose>
+      <pose>-3.53575625337335 1.0023016418561177 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -784,7 +784,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>8.916910135899073 -2.3453473141154131 0 0 0 0</pose>
+      <pose>-3.7370269951987245 6.3449163291681163 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -899,7 +899,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>8.5932166406115265 -4.5561593720117433 0 0 0 0</pose>
+      <pose>0.36071475486337867 -3.0718898772974974 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1014,7 +1014,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-8.5529072096016385 1.741586913008744 0 0 0 0</pose>
+      <pose>-4.9625070589691518 1.5400452930563269 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1129,7 +1129,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-3.4970429299075274 -2.1371878040474979 0 0 0 0</pose>
+      <pose>5.7995463631642767 -0.907832547442462 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1244,7 +1244,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>9.8787134027585282 -1.0854864964874302 0 0 0 0</pose>
+      <pose>-6.2333834784422564 2.1140021486934355 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1359,7 +1359,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>0.070569145790917887 5.5072959349212578 0 0 0 0</pose>
+      <pose>3.5888745090864091 -0.81139269450098084 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1474,7 +1474,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-7.6111033216210426 5.7464397304624093 0 0 0 0</pose>
+      <pose>-8.9523486221883086 -0.42149195809926177 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1589,7 +1589,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-2.761116317837617 7.8682911875419137 0 0 0 0</pose>
+      <pose>-8.7787870882572339 8.0097858400926203 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1704,7 +1704,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>1.863711658972484 -0.94046564338816196 0 0 0 0</pose>
+      <pose>-1.7336627244077327 4.1133055921660464 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -2001,5 +2001,6 @@
     <plugin name='gz::sim::systems::Sensors' filename='gz-sim-sensors-system'>
       <render_engine>ogre2</render_engine>
     </plugin>
+    <plugin name='gz::sim::systems::PayloadSystem' filename='libPayloadSystem.so'/>
   </world>
 </sdf>
