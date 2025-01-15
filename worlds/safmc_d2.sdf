@@ -242,12 +242,6 @@
       </link>
     </model>
     <include>
-      <uri>model://bonus_zone</uri>
-      <name>bonus_zone</name>
-      <pose>5 8.5 1 0 0 0</pose>
-      <static>true</static>
-    </include>
-    <include>
       <uri>model://payload_01</uri>
       <name>payload_01</name>
       <pose>-8 -9 0 0 0 0</pose>
@@ -669,7 +663,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-2.7594316854002994 -5.6332002232500216 0 0 0 0</pose>
+      <pose>-5.6638427364217137 -0.3479798407506749 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -784,7 +778,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>8.916910135899073 -2.3453473141154131 0 0 0 0</pose>
+      <pose>-9.5052140281404327 2.1532849923001383 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -899,7 +893,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>8.5932166406115265 -4.5561593720117433 0 0 0 0</pose>
+      <pose>1.111276120051004 -1.416980303178601 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1014,7 +1008,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-8.5529072096016385 1.741586913008744 0 0 0 0</pose>
+      <pose>-9.9611861012718883 -1.5371806262496701 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1129,7 +1123,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-3.4970429299075274 -2.1371878040474979 0 0 0 0</pose>
+      <pose>6.0195355360039606 -5.8728189485536522 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1244,7 +1238,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>9.8787134027585282 -1.0854864964874302 0 0 0 0</pose>
+      <pose>5.2129031246198423 -0.72333523299688984 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1359,7 +1353,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>0.070569145790917887 5.5072959349212578 0 0 0 0</pose>
+      <pose>-1.4337556200148889 9.8336844754273898 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1474,7 +1468,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-7.6111033216210426 5.7464397304624093 0 0 0 0</pose>
+      <pose>4.8269774410042317 1.8956604141603002 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1589,7 +1583,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-2.761116317837617 7.8682911875419137 0 0 0 0</pose>
+      <pose>-7.5252645794957846 -1.3895146424798561 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1704,7 +1698,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>1.863711658972484 -0.94046564338816196 0 0 0 0</pose>
+      <pose>-3.5995417736746038 -3.0407758987643607 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1805,6 +1799,293 @@
             <ambient>1 0 0 1</ambient>
             <diffuse>1 0 0 1</diffuse>
             <specular>1 0 0 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <render_order>0</render_order>
+            <lighting>true</lighting>
+            <double_sided>false</double_sided>
+            <shader type='pixel'/>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name='bonus_zone'>
+      <static>true</static>
+      <self_collide>false</self_collide>
+      <allow_auto_disable>true</allow_auto_disable>
+      <enable_wind>false</enable_wind>
+      <pose>5 8.5 1 0 0 0</pose>
+      <link name='link'>
+        <pose>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+        </inertial>
+        <enable_wind>false</enable_wind>
+        <collision name='bonus_zone_left_wall_collision'>
+          <pose>-5 0 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.050000000000000003 3 2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>255</collide_bitmask>
+            </contact>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+                <fdir1>0 0 0</fdir1>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='bonus_zone_right_wall_collision'>
+          <pose>5 0 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.050000000000000003 3 2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>255</collide_bitmask>
+            </contact>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+                <fdir1>0 0 0</fdir1>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='bonus_zone_front_wall_left_part_collision'>
+          <pose>-1.1835406830705648 -1.5 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>7.6329186338588704 0.050000000000000003 2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>255</collide_bitmask>
+            </contact>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+                <fdir1>0 0 0</fdir1>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='bonus_zone_front_wall_right_part_collision'>
+          <pose>4.8164593169294356 -1.5 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.36708136614112963 0.050000000000000003 2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>255</collide_bitmask>
+            </contact>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+                <fdir1>0 0 0</fdir1>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='bonus_zone_back_wall_collision'>
+          <pose>0 1.5 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>10 0.050000000000000003 2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>255</collide_bitmask>
+            </contact>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+                <fdir1>0 0 0</fdir1>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='bonus_zone_high_beam_collision'>
+          <pose>3.6329186338588704 -1.25 0.75 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>2 0.5 0.5</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>255</collide_bitmask>
+            </contact>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+                <fdir1>0 0 0</fdir1>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='bonus_zone_left_wall_visual'>
+          <pose>-5 0 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.050000000000000003 3 2</size>
+            </box>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+          <laser_retro>0</laser_retro>
+          <transparency>0</transparency>
+          <visibility_flags>4294967295</visibility_flags>
+          <material>
+            <ambient>1 0.800000012 0.400000006 1</ambient>
+            <diffuse>1 0.800000012 0.400000006 1</diffuse>
+            <specular>1 0.800000012 0.400000006 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <render_order>0</render_order>
+            <lighting>true</lighting>
+            <double_sided>false</double_sided>
+            <shader type='pixel'/>
+          </material>
+        </visual>
+        <visual name='bonus_zone_right_wall_visual'>
+          <pose>5 0 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.050000000000000003 3 2</size>
+            </box>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+          <laser_retro>0</laser_retro>
+          <transparency>0</transparency>
+          <visibility_flags>4294967295</visibility_flags>
+          <material>
+            <ambient>1 0.800000012 0.400000006 1</ambient>
+            <diffuse>1 0.800000012 0.400000006 1</diffuse>
+            <specular>1 0.800000012 0.400000006 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <render_order>0</render_order>
+            <lighting>true</lighting>
+            <double_sided>false</double_sided>
+            <shader type='pixel'/>
+          </material>
+        </visual>
+        <visual name='bonus_zone_front_wall_left_part_visual'>
+          <pose>-1.1835406830705648 -1.5 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>7.6329186338588704 0.050000000000000003 2</size>
+            </box>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+          <laser_retro>0</laser_retro>
+          <transparency>0</transparency>
+          <visibility_flags>4294967295</visibility_flags>
+          <material>
+            <ambient>1 0.800000012 0.400000006 1</ambient>
+            <diffuse>1 0.800000012 0.400000006 1</diffuse>
+            <specular>1 0.800000012 0.400000006 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <render_order>0</render_order>
+            <lighting>true</lighting>
+            <double_sided>false</double_sided>
+            <shader type='pixel'/>
+          </material>
+        </visual>
+        <visual name='bonus_zone_front_wall_right_part_visual'>
+          <pose>4.8164593169294356 -1.5 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.36708136614112963 0.050000000000000003 2</size>
+            </box>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+          <laser_retro>0</laser_retro>
+          <transparency>0</transparency>
+          <visibility_flags>4294967295</visibility_flags>
+          <material>
+            <ambient>1 0.800000012 0.400000006 1</ambient>
+            <diffuse>1 0.800000012 0.400000006 1</diffuse>
+            <specular>1 0.800000012 0.400000006 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <render_order>0</render_order>
+            <lighting>true</lighting>
+            <double_sided>false</double_sided>
+            <shader type='pixel'/>
+          </material>
+        </visual>
+        <visual name='bonus_zone_back_wall_visual'>
+          <pose>0 1.5 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>10 0.050000000000000003 2</size>
+            </box>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+          <laser_retro>0</laser_retro>
+          <transparency>0</transparency>
+          <visibility_flags>4294967295</visibility_flags>
+          <material>
+            <ambient>1 0.800000012 0.400000006 1</ambient>
+            <diffuse>1 0.800000012 0.400000006 1</diffuse>
+            <specular>1 0.800000012 0.400000006 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <render_order>0</render_order>
+            <lighting>true</lighting>
+            <double_sided>false</double_sided>
+            <shader type='pixel'/>
+          </material>
+        </visual>
+        <visual name='bonus_zone_high_beam_visual'>
+          <pose>3.6329186338588704 -1.25 0.75 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>2 0.5 0.5</size>
+            </box>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+          <laser_retro>0</laser_retro>
+          <transparency>0</transparency>
+          <visibility_flags>4294967295</visibility_flags>
+          <material>
+            <ambient>0.5 0 1 1</ambient>
+            <diffuse>0.5 0 1 1</diffuse>
+            <specular>0.5 0 1 1</specular>
             <emissive>0 0 0 1</emissive>
             <render_order>0</render_order>
             <lighting>true</lighting>
