@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<sdf version="1.11">
+    <model name="camera">
+        <link name="camera_link">
+            <visual name="visual">
+                <geometry>
+                    <box>
+                        <size>0.025 0.024 0.0115</size>
+                    </box>
+                </geometry>
+                <material>
+                    <ambient>0 0.2 0.02 1</ambient>
+                    <diffuse>0 0.2 0.02 1</diffuse>
+                    <specular>0 0.2 0.02 1</specular>
+                </material>
+            </visual>
+
+            <collision name="collision">
+                <geometry>
+                    <box>
+                        <size>0.025 0.024 0.0115</size>
+                    </box>
+                </geometry>
+            </collision>
+
+            <!-- <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.1</ixx>
+                    <iyy>0.1</iyy>
+                    <izz>0.1</izz>
+                    <ixy>0</ixy>
+                    <ixz>0</ixz>
+                    <iyz>0</iyz>
+                </inertia>
+            </inertial> -->
+
+
+            <sensor type="camera" name="camera">
+                <pose>0 0 0 0 -1.5708 0</pose> <!-- -1.5708 -> -90deg -> to bottom -->
+
+                <topic>camera/image_raw</topic>
+                <always_on>1</always_on>
+                <update_rate>100</update_rate> <!-- update rate-->
+                <visualize>true</visualize>
+                <!-- <gz_frame_id>camera_rgb_frame</gz_frame_id> -->
+                <camera>
+                    <camera_info_topic>camera/camera_info</camera_info_topic>
+                    <horizontal_fov>1.047</horizontal_fov>
+                    <image>
+                        <width>1080</width> <!-- resolution -->
+                        <height>720</height>
+                    </image>
+                    <clip>
+                        <near>0.1</near>
+                        <far>100</far>
+                    </clip>
+                </camera>
+            </sensor>
+        </link>
+    </model>
+</sdf>
