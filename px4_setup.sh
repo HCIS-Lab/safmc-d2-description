@@ -6,7 +6,9 @@ export GZ_SIM_RESOURCE_PATH=$(pwd)/models:$(pwd)/worlds
 export PX4_GZ_WORLD="safmc_d2"
 
 git submodule update --init --recursive
-bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
+
+[ -e /tmp/.px.download ] ||  bash ./PX4-Autopilot/Tools/setup/ubuntu.sh  
+[ -e /tmp/.px.download ] || touch /tmp/.px.download
 
 # world description
 read -p "Regenerate safmc_d2 world? [y/N]: " user_input
