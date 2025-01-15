@@ -18,6 +18,7 @@
             <max_step_size>0.004</max_step_size>
             <real_time_factor>1.0</real_time_factor>
             <real_time_update_rate>250</real_time_update_rate>
+            <thread_position_correction>true</thread_position_correction>
         </physics>
 
         <!-- Spherical Coordinate -->
