@@ -663,7 +663,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-5.6638427364217137 -0.3479798407506749 0 0 0 0</pose>
+      <pose>-7.2903341373328772 9.4867828352962746 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -778,7 +778,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-9.5052140281404327 2.1532849923001383 0 0 0 0</pose>
+      <pose>-3.7596698761088216 4.2072069726600656 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -893,7 +893,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>1.111276120051004 -1.416980303178601 0 0 0 0</pose>
+      <pose>-9.0575812636316755 -3.8257004974946298 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1008,7 +1008,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-9.9611861012718883 -1.5371806262496701 0 0 0 0</pose>
+      <pose>-3.2597185358434029 6.1634641435997892 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1123,7 +1123,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>6.0195355360039606 -5.8728189485536522 0 0 0 0</pose>
+      <pose>-0.88566118023302565 7.7404896181309883 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1238,7 +1238,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>5.2129031246198423 -0.72333523299688984 0 0 0 0</pose>
+      <pose>-5.1529072020326065 0.31826802787458774 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1353,7 +1353,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-1.4337556200148889 9.8336844754273898 0 0 0 0</pose>
+      <pose>-0.78909453729059997 2.235148038882615 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1468,7 +1468,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>4.8269774410042317 1.8956604141603002 0 0 0 0</pose>
+      <pose>2.9281034041734628 2.8749277114712015 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1583,7 +1583,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-7.5252645794957846 -1.3895146424798561 0 0 0 0</pose>
+      <pose>-9.5296014528747204 3.4767589482829564 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1698,7 +1698,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-3.5995417736746038 -3.0407758987643607 0 0 0 0</pose>
+      <pose>-9.693979363646859 7.9284229959244215 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1874,10 +1874,10 @@
           </surface>
         </collision>
         <collision name='bonus_zone_front_wall_left_part_collision'>
-          <pose>-1.1835406830705648 -1.5 0 0 0 0</pose>
+          <pose>-1.4320432390807074 -1.5 0 0 0 0</pose>
           <geometry>
             <box>
-              <size>7.6329186338588704 0.050000000000000003 2</size>
+              <size>7.1359135218385852 0.050000000000000003 2</size>
             </box>
           </geometry>
           <surface>
@@ -1896,10 +1896,10 @@
           </surface>
         </collision>
         <collision name='bonus_zone_front_wall_right_part_collision'>
-          <pose>4.8164593169294356 -1.5 0 0 0 0</pose>
+          <pose>4.5679567609192926 -1.5 0 0 0 0</pose>
           <geometry>
             <box>
-              <size>0.36708136614112963 0.050000000000000003 2</size>
+              <size>0.86408647816141482 0.050000000000000003 2</size>
             </box>
           </geometry>
           <surface>
@@ -1940,7 +1940,7 @@
           </surface>
         </collision>
         <collision name='bonus_zone_high_beam_collision'>
-          <pose>3.6329186338588704 -1.25 0.75 0 0 0</pose>
+          <pose>3.1359135218385852 -1.25 0.75 0 0 0</pose>
           <geometry>
             <box>
               <size>2 0.5 0.5</size>
@@ -2006,10 +2006,10 @@
           </material>
         </visual>
         <visual name='bonus_zone_front_wall_left_part_visual'>
-          <pose>-1.1835406830705648 -1.5 0 0 0 0</pose>
+          <pose>-1.4320432390807074 -1.5 0 0 0 0</pose>
           <geometry>
             <box>
-              <size>7.6329186338588704 0.050000000000000003 2</size>
+              <size>7.1359135218385852 0.050000000000000003 2</size>
             </box>
           </geometry>
           <cast_shadows>true</cast_shadows>
@@ -2028,10 +2028,10 @@
           </material>
         </visual>
         <visual name='bonus_zone_front_wall_right_part_visual'>
-          <pose>4.8164593169294356 -1.5 0 0 0 0</pose>
+          <pose>4.5679567609192926 -1.5 0 0 0 0</pose>
           <geometry>
             <box>
-              <size>0.36708136614112963 0.050000000000000003 2</size>
+              <size>0.86408647816141482 0.050000000000000003 2</size>
             </box>
           </geometry>
           <cast_shadows>true</cast_shadows>
@@ -2072,7 +2072,7 @@
           </material>
         </visual>
         <visual name='bonus_zone_high_beam_visual'>
-          <pose>3.6329186338588704 -1.25 0.75 0 0 0</pose>
+          <pose>3.1359135218385852 -1.25 0.75 0 0 0</pose>
           <geometry>
             <box>
               <size>2 0.5 0.5</size>
