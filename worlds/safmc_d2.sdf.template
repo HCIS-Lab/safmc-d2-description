@@ -207,73 +207,73 @@
             <uri>model://payload_01</uri>
             <name>payload_01</name>
             <pose>-8 -9 0 0 0 0</pose>
-            <static>true</static>
+            <static>false</static>
         </include>
         <include>
             <uri>model://payload_02</uri>
             <name>payload_02</name>
             <pose>-7 -9 0 0 0 0</pose>
-            <static>true</static>
+            <static>false</static>
         </include>
         <include>
             <uri>model://payload_03</uri>
             <name>payload_03</name>
             <pose>-6 -9 0 0 0 0</pose>
-            <static>true</static>
+            <static>false</static>
         </include>
         <include>
             <uri>model://payload_04</uri>
             <name>payload_04</name>
             <pose>-5 -9 0 0 0 0</pose>
-            <static>true</static>
+            <static>false</static>
         </include>
         <include>
             <uri>model://payload_05</uri>
             <name>payload_05</name>
             <pose>-4 -9 0 0 0 0</pose>
-            <static>true</static>
+            <static>false</static>
         </include>
         <include>
             <uri>model://payload_06</uri>
             <name>payload_06</name>
             <pose>-3 -9 0 0 0 0</pose>
-            <static>true</static>
+            <static>false</static>
         </include>
         <include>
             <uri>model://payload_07</uri>
             <name>payload_07</name>
             <pose>3 -9 0 0 0 0</pose>
-            <static>true</static>
+            <static>false</static>
         </include>
         <include>
             <uri>model://payload_08</uri>
             <name>payload_08</name>
             <pose>4 -9 0 0 0 0</pose>
-            <static>true</static>
+            <static>false</static>
         </include>
         <include>
             <uri>model://payload_09</uri>
             <name>payload_09</name>
             <pose>5 -9 0 0 0 0</pose>
-            <static>true</static>
+            <static>false</static>
         </include>
         <include>
             <uri>model://payload_10</uri>
             <name>payload_10</name>
             <pose>6 -9 0 0 0 0</pose>
-            <static>true</static>
+            <static>false</static>
         </include>
         <include>
             <uri>model://payload_11</uri>
             <name>payload_11</name>
             <pose>7 -9 0 0 0 0</pose>
-            <static>true</static>
+            <static>false</static>
         </include>
         <include>
             <uri>model://payload_12</uri>
             <name>payload_12</name>
             <pose>8 -9 0 0 0 0</pose>
-            <static>true</static>
+            <static>false</static>
         </include>
 
         <!-- Plugins -->
