@@ -669,7 +669,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-0.41299044705332832 9.0870079169032056 0 0 0 0</pose>
+      <pose>-9.9278257098654361 6.704065361743611 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -784,7 +784,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>6.4658837318556976 -1.3651775151992549 0 0 0 0</pose>
+      <pose>7.1465617857507659 -1.3590225992751019 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -899,7 +899,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>0.50447427584267146 4.842070978659498 0 0 0 0</pose>
+      <pose>9.8122350198923023 -4.2211823984476364 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1014,7 +1014,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-3.229549457544354 -5.6439190277127675 0 0 0 0</pose>
+      <pose>-0.81692500695277204 -4.1404301288759608 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1129,7 +1129,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>9.1206502292201215 2.0130476435081572 0 0 0 0</pose>
+      <pose>-7.4477979037159781 9.7290994702508247 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1244,7 +1244,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-8.2074768937233156 4.0269634817103341 0 0 0 0</pose>
+      <pose>-2.6531574695612159 -5.1357375426695508 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1359,7 +1359,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>9.6700888760706576 -1.3029277569972901 0 0 0 0</pose>
+      <pose>-2.79404830525944 8.5478213298250498 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1474,7 +1474,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-3.8214712281523333 -1.1774128045198289 0 0 0 0</pose>
+      <pose>2.2099831718675933 -0.54423795459903523 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1589,7 +1589,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-4.8750726111159697 5.7006229910967061 0 0 0 0</pose>
+      <pose>-4.1821842184183495 9.8246267342080031 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1704,7 +1704,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-9.6609582962523746 0.56404428754088975 0 0 0 0</pose>
+      <pose>-1.9988724019846789 5.3881418697464838 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
