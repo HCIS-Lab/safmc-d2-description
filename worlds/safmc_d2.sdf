@@ -74,7 +74,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -144,7 +144,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -190,7 +190,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -236,7 +236,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -313,78 +313,6 @@
       <pose>8 -9 0 0 0 0</pose>
       <static>false</static>
     </include>
-    <include>
-      <uri>model://payload_01</uri>
-      <name>payload_01</name>
-      <pose>-8 -9 0 0 0 0</pose>
-      <static>true</static>
-    </include>
-    <include>
-      <uri>model://payload_02</uri>
-      <name>payload_02</name>
-      <pose>-7 -9 0 0 0 0</pose>
-      <static>true</static>
-    </include>
-    <include>
-      <uri>model://payload_03</uri>
-      <name>payload_03</name>
-      <pose>-6 -9 0 0 0 0</pose>
-      <static>true</static>
-    </include>
-    <include>
-      <uri>model://payload_04</uri>
-      <name>payload_04</name>
-      <pose>-5 -9 0 0 0 0</pose>
-      <static>true</static>
-    </include>
-    <include>
-      <uri>model://payload_05</uri>
-      <name>payload_05</name>
-      <pose>-4 -9 0 0 0 0</pose>
-      <static>true</static>
-    </include>
-    <include>
-      <uri>model://payload_06</uri>
-      <name>payload_06</name>
-      <pose>-3 -9 0 0 0 0</pose>
-      <static>true</static>
-    </include>
-    <include>
-      <uri>model://payload_07</uri>
-      <name>payload_07</name>
-      <pose>3 -9 0 0 0 0</pose>
-      <static>true</static>
-    </include>
-    <include>
-      <uri>model://payload_08</uri>
-      <name>payload_08</name>
-      <pose>4 -9 0 0 0 0</pose>
-      <static>true</static>
-    </include>
-    <include>
-      <uri>model://payload_09</uri>
-      <name>payload_09</name>
-      <pose>5 -9 0 0 0 0</pose>
-      <static>true</static>
-    </include>
-    <include>
-      <uri>model://payload_10</uri>
-      <name>payload_10</name>
-      <pose>6 -9 0 0 0 0</pose>
-      <static>true</static>
-    </include>
-    <include>
-      <uri>model://payload_11</uri>
-      <name>payload_11</name>
-      <pose>7 -9 0 0 0 0</pose>
-      <static>true</static>
-    </include>
-    <include>
-      <uri>model://payload_12</uri>
-      <name>payload_12</name>
-      <pose>8 -9 0 0 0 0</pose>
-      <static>true</static>
-    </include>
     <model name='drop_zone_00'>
       <static>true</static>
       <self_collide>false</self_collide>
@@ -426,7 +354,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
         <visual name='green_hotspot_visual'>
@@ -449,7 +377,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
         <visual name='blue_hotspot_visual'>
@@ -472,7 +400,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -518,7 +446,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
         <visual name='green_hotspot_visual'>
@@ -541,7 +469,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
         <visual name='blue_hotspot_visual'>
@@ -564,7 +492,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -610,7 +538,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
         <visual name='green_hotspot_visual'>
@@ -633,7 +561,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
         <visual name='blue_hotspot_visual'>
@@ -656,7 +584,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -725,7 +653,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -735,7 +663,17 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
+      <
+      <
+      <
+      <
+      <
+      <
+      < HEAD
       <pose>-3.53575625337335 1.0023016418561177 0 0 0 0</pose>
+      =======
+      <pose>-7.1598731899034762 2.4955858187396824 0 0 0 0</pose>
+      >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -817,7 +755,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -840,7 +778,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -850,7 +788,17 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
+      <
+      <
+      <
+      <
+      <
+      <
+      < HEAD
       <pose>-3.7370269951987245 6.3449163291681163 0 0 0 0</pose>
+      =======
+      <pose>-4.7608914468146279 5.2704427436348791 0 0 0 0</pose>
+      >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -932,7 +880,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -955,7 +903,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -965,7 +913,17 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
+      <
+      <
+      <
+      <
+      <
+      <
+      < HEAD
       <pose>0.36071475486337867 -3.0718898772974974 0 0 0 0</pose>
+      =======
+      <pose>-0.57468566603295557 -3.8342212792557184 0 0 0 0</pose>
+      >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1047,7 +1005,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -1070,7 +1028,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -1080,7 +1038,17 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
+      <
+      <
+      <
+      <
+      <
+      <
+      < HEAD
       <pose>-4.9625070589691518 1.5400452930563269 0 0 0 0</pose>
+      =======
+      <pose>-8.4311818641213101 5.3243033627907579 0 0 0 0</pose>
+      >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1162,7 +1130,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -1185,7 +1153,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -1195,7 +1163,17 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
+      <
+      <
+      <
+      <
+      <
+      <
+      < HEAD
       <pose>5.7995463631642767 -0.907832547442462 0 0 0 0</pose>
+      =======
+      <pose>-8.2892234992074272 -0.13154128077802518 0 0 0 0</pose>
+      >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1277,7 +1255,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -1300,7 +1278,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -1310,7 +1288,17 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
+      <
+      <
+      <
+      <
+      <
+      <
+      < HEAD
       <pose>-6.2333834784422564 2.1140021486934355 0 0 0 0</pose>
+      =======
+      <pose>-1.9340166569500017 6.153113048053676 0 0 0 0</pose>
+      >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1392,7 +1380,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -1415,7 +1403,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -1425,7 +1413,17 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
+      <
+      <
+      <
+      <
+      <
+      <
+      < HEAD
       <pose>3.5888745090864091 -0.81139269450098084 0 0 0 0</pose>
+      =======
+      <pose>0.59070509068845745 -1.2832736068590318 0 0 0 0</pose>
+      >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1507,7 +1505,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -1530,7 +1528,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -1540,7 +1538,17 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
+      <
+      <
+      <
+      <
+      <
+      <
+      < HEAD
       <pose>-8.9523486221883086 -0.42149195809926177 0 0 0 0</pose>
+      =======
+      <pose>-9.5663923224677951 -2.3979448882643783 0 0 0 0</pose>
+      >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1622,7 +1630,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -1645,7 +1653,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -1655,7 +1663,17 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
+      <
+      <
+      <
+      <
+      <
+      <
+      < HEAD
       <pose>-8.7787870882572339 8.0097858400926203 0 0 0 0</pose>
+      =======
+      <pose>3.1178493019448705 0.42889684628056379 0 0 0 0</pose>
+      >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1737,7 +1755,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -1760,7 +1778,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -1770,7 +1788,17 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
+      <
+      <
+      <
+      <
+      <
+      <
+      < HEAD
       <pose>-1.7336627244077327 4.1133055921660464 0 0 0 0</pose>
+      =======
+      <pose>7.3851292338708241 -3.1335404121511523 0 0 0 0</pose>
+      >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1852,7 +1880,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
         <visual name='shaft_visual'>
@@ -1875,7 +1903,7 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
-            <shader type='pixel'/>
+            <shader type='pixel' />
           </material>
         </visual>
       </link>
@@ -1946,11 +1974,23 @@
           </surface>
         </collision>
         <collision name='bonus_zone_front_wall_left_part_collision'>
+          <
+          <
+          <
+          <
+          <
+          <
+          < HEAD
           <pose>-3.5953872207659705 -1.5 0 0 0 0</pose>
           <geometry>
+          <box>
+          <size>2.8092255584680594 0.050000000000000003 2</size>
+          =======
+          <pose>-3.2709250406923362 -1.5 0 0 0 0</pose>
+          <geometry>
             <box>
-              <size>2.8092255584680594 0.050000000000000003 2</size>
-            </box>
+              <size>3.4581499186153275 0.050000000000000003 2</size> >>>>>>>
+              f1b90261cff3821fa99d1c79bbcb190bf4d31383 </box>
           </geometry>
           <surface>
             <contact>
@@ -1968,11 +2008,23 @@
           </surface>
         </collision>
         <collision name='bonus_zone_front_wall_right_part_collision'>
+          <
+          <
+          <
+          <
+          <
+          <
+          < HEAD
           <pose>2.4046127792340295 -1.5 0 0 0 0</pose>
           <geometry>
+          <box>
+          <size>5.190774441531941 0.050000000000000003 2</size>
+          =======
+          <pose>2.7290749593076638 -1.5 0 0 0 0</pose>
+          <geometry>
             <box>
-              <size>5.190774441531941 0.050000000000000003 2</size>
-            </box>
+              <size>4.5418500813846725 0.050000000000000003 2</size> >>>>>>>
+              f1b90261cff3821fa99d1c79bbcb190bf4d31383 </box>
           </geometry>
           <surface>
             <contact>
@@ -2012,7 +2064,17 @@
           </surface>
         </collision>
         <collision name='bonus_zone_high_beam_collision'>
+          <
+          <
+          <
+          <
+          <
+          <
+          < HEAD
           <pose>-1.1907744415319406 -1.25 0.75 0 0 0</pose>
+          =======
+          <pose>-0.5418500813846725 -1.25 0.75 0 0 0</pose>
+          >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
           <geometry>
             <box>
               <size>2 0.5 0.5</size>
@@ -2052,7 +2114,17 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
+            <
+            <
+            <
+            <
+            <
+            <
+            < HEAD
             <shader type='pixel' />
+            =======
+            <shader type='pixel' />
+            >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
           </material>
         </visual>
         <visual name='bonus_zone_right_wall_visual'>
@@ -2074,15 +2146,31 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
+            <
+            <
+            <
+            <
+            <
+            <
+            < HEAD
             <shader type='pixel' />
           </material>
         </visual>
         <visual name='bonus_zone_front_wall_left_part_visual'>
           <pose>-3.5953872207659705 -1.5 0 0 0 0</pose>
           <geometry>
+          <box>
+          <size>2.8092255584680594 0.050000000000000003 2</size>
+          =======
+          <shader type='pixel' />
+          </material>
+        </visual>
+        <visual name='bonus_zone_front_wall_left_part_visual'>
+          <pose>-3.2709250406923362 -1.5 0 0 0 0</pose>
+          <geometry>
             <box>
-              <size>2.8092255584680594 0.050000000000000003 2</size>
-            </box>
+              <size>3.4581499186153275 0.050000000000000003 2</size> >>>>>>>
+              f1b90261cff3821fa99d1c79bbcb190bf4d31383 </box>
           </geometry>
           <cast_shadows>true</cast_shadows>
           <laser_retro>0</laser_retro>
@@ -2096,15 +2184,31 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
+            <
+            <
+            <
+            <
+            <
+            <
+            < HEAD
             <shader type='pixel' />
           </material>
         </visual>
         <visual name='bonus_zone_front_wall_right_part_visual'>
           <pose>2.4046127792340295 -1.5 0 0 0 0</pose>
           <geometry>
+          <box>
+          <size>5.190774441531941 0.050000000000000003 2</size>
+          =======
+          <shader type='pixel' />
+          </material>
+        </visual>
+        <visual name='bonus_zone_front_wall_right_part_visual'>
+          <pose>2.7290749593076638 -1.5 0 0 0 0</pose>
+          <geometry>
             <box>
-              <size>5.190774441531941 0.050000000000000003 2</size>
-            </box>
+              <size>4.5418500813846725 0.050000000000000003 2</size> >>>>>>>
+              f1b90261cff3821fa99d1c79bbcb190bf4d31383 </box>
           </geometry>
           <cast_shadows>true</cast_shadows>
           <laser_retro>0</laser_retro>
@@ -2118,7 +2222,17 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
+            <
+            <
+            <
+            <
+            <
+            <
+            < HEAD
             <shader type='pixel' />
+            =======
+            <shader type='pixel' />
+            >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
           </material>
         </visual>
         <visual name='bonus_zone_back_wall_visual'>
@@ -2140,18 +2254,30 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
+            <
+            <
+            <
+            <
+            <
+            <
+            < HEAD
             <shader type='pixel' />
           </material>
         </visual>
         <visual name='bonus_zone_high_beam_visual'>
-          <pose>-1.1907744415319406 -1.25 0.75 0 0 0</pose>
-          <geometry>
+          <pose>-1.1907744415319406 -1.25 0.75 0 0 0</pose> ======= <shader type='pixel' />
+          </material>
+        </visual>
+        <visual name='bonus_zone_high_beam_visual'>
+          <pose>-0.5418500813846725 -1.25 0.75 0 0 0</pose> >>>>>>>
+          f1b90261cff3821fa99d1c79bbcb190bf4d31383 <geometry>
             <box>
               <size>2 0.5 0.5</size>
             </box>
           </geometry>
           <cast_shadows>true</cast_shadows>
-          <laser_retro>0</laser_retro>
+          <laser_retro>
+          0</laser_retro>
           <transparency>0</transparency>
           <visibility_flags>4294967295</visibility_flags>
           <material>
@@ -2162,7 +2288,17 @@
             <render_order>0</render_order>
             <lighting>true</lighting>
             <double_sided>false</double_sided>
+            <
+            <
+            <
+            <
+            <
+            <
+            < HEAD
             <shader type='pixel' />
+            =======
+            <shader type='pixel' />
+            >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
           </material>
         </visual>
       </link>
@@ -2265,8 +2401,19 @@
       <plugin name='Select Entities' filename='SelectEntities'>
         <gz-gui>
           <anchors target='Select entities'>
+            <
+            <
+            <
+            <
+            <
+            <
+            < HEAD
             <line own='right' target='right' />
             <line own='top' target='top' />
+            =======
+            <line own='right' target='right' />
+            <line own='top' target='top' />
+            >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
           </anchors>
           <property key='resizable' type='bool'>false</property>
           <property key='width' type='double'>5</property>
@@ -2287,8 +2434,19 @@
       <plugin name='Spawn Entities' filename='Spawn'>
         <gz-gui>
           <anchors target='Select entities'>
+            <
+            <
+            <
+            <
+            <
+            <
+            < HEAD
             <line own='right' target='right' />
             <line own='top' target='top' />
+            =======
+            <line own='right' target='right' />
+            <line own='top' target='top' />
+            >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
           </anchors>
           <property key='resizable' type='bool'>false</property>
           <property key='width' type='double'>5</property>
@@ -2307,8 +2465,19 @@
           <property type='double' key='z'>1</property>
           <property type='string' key='state'>floating</property>
           <anchors target='3D View'>
+            <
+            <
+            <
+            <
+            <
+            <
+            < HEAD
             <line own='left' target='left' />
             <line own='bottom' target='bottom' />
+            =======
+            <line own='left' target='left' />
+            <line own='bottom' target='bottom' />
+            >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
           </anchors>
         </gz-gui>
         <play_pause>1</play_pause>
@@ -2325,8 +2494,19 @@
           <property type='double' key='z'>1</property>
           <property type='string' key='state'>floating</property>
           <anchors target='3D View'>
+            <
+            <
+            <
+            <
+            <
+            <
+            < HEAD
             <line own='right' target='right' />
             <line own='bottom' target='bottom' />
+            =======
+            <line own='right' target='right' />
+            <line own='bottom' target='bottom' />
+            >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
           </anchors>
         </gz-gui>
         <sim_time>1</sim_time>
@@ -2334,7 +2514,17 @@
         <real_time_factor>1</real_time_factor>
         <iterations>1</iterations>
       </plugin>
+      <
+      <
+      <
+      <
+      <
+      <
+      < HEAD
       <plugin name='Entity tree' filename='EntityTree' />
+      =======
+      <plugin name='Entity tree' filename='EntityTree' />
+      >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
     </gui>
     <scene>
       <ambient>0.400000006 0.400000006 0.400000006 1</ambient>
@@ -2343,6 +2533,13 @@
       <origin_visual>true</origin_visual>
       <shadows>true</shadows>
     </scene>
+    <
+    <
+    <
+    <
+    <
+    <
+    < HEAD
     <plugin name='gz::sim::systems::Physics' filename='gz-sim-physics-system' />
     <plugin name='gz::sim::systems::UserCommands' filename='gz-sim-user-commands-system' />
     <plugin name='gz::sim::systems::SceneBroadcaster' filename='gz-sim-scene-broadcaster-system' />
@@ -2355,5 +2552,19 @@
       <render_engine>ogre2</render_engine>
     </plugin>
     <plugin name='gz::sim::systems::PayloadSystem' filename='libPayloadSystem.so' />
+    =======
+    <plugin name='gz::sim::systems::Physics' filename='gz-sim-physics-system' />
+    <plugin name='gz::sim::systems::UserCommands' filename='gz-sim-user-commands-system' />
+    <plugin name='gz::sim::systems::SceneBroadcaster' filename='gz-sim-scene-broadcaster-system' />
+    <plugin name='gz::sim::systems::Contact' filename='gz-sim-contact-system' />
+    <plugin name='gz::sim::systems::Imu' filename='gz-sim-imu-system' />
+    <plugin name='gz::sim::systems::AirPressure' filename='gz-sim-air-pressure-system' />
+    <plugin name='gz::sim::systems::ApplyLinkWrench' filename='gz-sim-apply-link-wrench-system' />
+    <plugin name='gz::sim::systems::NavSat' filename='gz-sim-navsat-system' />
+    <plugin name='gz::sim::systems::Sensors' filename='gz-sim-sensors-system'>
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin name='gz::sim::systems::PayloadSystem' filename='libPayloadSystem.so' />
+    >>>>>>> f1b90261cff3821fa99d1c79bbcb190bf4d31383
   </world>
 </sdf>
