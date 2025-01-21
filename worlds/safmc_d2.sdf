@@ -242,10 +242,76 @@
       </link>
     </model>
     <include>
-      <uri>model://bonus_zone</uri>
-      <name>bonus_zone</name>
-      <pose>5 8.5 1 0 0 0</pose>
-      <static>true</static>
+      <uri>model://payload_01</uri>
+      <name>payload_01</name>
+      <pose>-8 -9 0 0 0 0</pose>
+      <static>false</static>
+    </include>
+    <include>
+      <uri>model://payload_02</uri>
+      <name>payload_02</name>
+      <pose>-7 -9 0 0 0 0</pose>
+      <static>false</static>
+    </include>
+    <include>
+      <uri>model://payload_03</uri>
+      <name>payload_03</name>
+      <pose>-6 -9 0 0 0 0</pose>
+      <static>false</static>
+    </include>
+    <include>
+      <uri>model://payload_04</uri>
+      <name>payload_04</name>
+      <pose>-5 -9 0 0 0 0</pose>
+      <static>false</static>
+    </include>
+    <include>
+      <uri>model://payload_05</uri>
+      <name>payload_05</name>
+      <pose>-4 -9 0 0 0 0</pose>
+      <static>false</static>
+    </include>
+    <include>
+      <uri>model://payload_06</uri>
+      <name>payload_06</name>
+      <pose>-3 -9 0 0 0 0</pose>
+      <static>false</static>
+    </include>
+    <include>
+      <uri>model://payload_07</uri>
+      <name>payload_07</name>
+      <pose>3 -9 0 0 0 0</pose>
+      <static>false</static>
+    </include>
+    <include>
+      <uri>model://payload_08</uri>
+      <name>payload_08</name>
+      <pose>4 -9 0 0 0 0</pose>
+      <static>false</static>
+    </include>
+    <include>
+      <uri>model://payload_09</uri>
+      <name>payload_09</name>
+      <pose>5 -9 0 0 0 0</pose>
+      <static>false</static>
+    </include>
+    <include>
+      <uri>model://payload_10</uri>
+      <name>payload_10</name>
+      <pose>6 -9 0 0 0 0</pose>
+      <static>false</static>
+    </include>
+    <include>
+      <uri>model://payload_11</uri>
+      <name>payload_11</name>
+      <pose>7 -9 0 0 0 0</pose>
+      <static>false</static>
+    </include>
+    <include>
+      <uri>model://payload_12</uri>
+      <name>payload_12</name>
+      <pose>8 -9 0 0 0 0</pose>
+      <static>false</static>
     </include>
     <include>
       <uri>model://payload_01</uri>
@@ -669,7 +735,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-9.9278257098654361 6.704065361743611 0 0 0 0</pose>
+      <pose>-3.53575625337335 1.0023016418561177 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -784,7 +850,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>7.1465617857507659 -1.3590225992751019 0 0 0 0</pose>
+      <pose>-3.7370269951987245 6.3449163291681163 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -899,7 +965,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>9.8122350198923023 -4.2211823984476364 0 0 0 0</pose>
+      <pose>0.36071475486337867 -3.0718898772974974 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1014,7 +1080,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-0.81692500695277204 -4.1404301288759608 0 0 0 0</pose>
+      <pose>-4.9625070589691518 1.5400452930563269 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1129,7 +1195,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-7.4477979037159781 9.7290994702508247 0 0 0 0</pose>
+      <pose>5.7995463631642767 -0.907832547442462 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1244,7 +1310,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-2.6531574695612159 -5.1357375426695508 0 0 0 0</pose>
+      <pose>-6.2333834784422564 2.1140021486934355 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1359,7 +1425,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-2.79404830525944 8.5478213298250498 0 0 0 0</pose>
+      <pose>3.5888745090864091 -0.81139269450098084 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1474,7 +1540,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>2.2099831718675933 -0.54423795459903523 0 0 0 0</pose>
+      <pose>-8.9523486221883086 -0.42149195809926177 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1589,7 +1655,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-4.1821842184183495 9.8246267342080031 0 0 0 0</pose>
+      <pose>-8.7787870882572339 8.0097858400926203 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1704,7 +1770,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-1.9988724019846789 5.3881418697464838 0 0 0 0</pose>
+      <pose>-1.7336627244077327 4.1133055921660464 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1814,6 +1880,293 @@
         </visual>
       </link>
     </model>
+    <model name='bonus_zone'>
+      <static>true</static>
+      <self_collide>false</self_collide>
+      <allow_auto_disable>true</allow_auto_disable>
+      <enable_wind>false</enable_wind>
+      <pose>5 8.5 1 0 0 0</pose>
+      <link name='link'>
+        <pose>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+        </inertial>
+        <enable_wind>false</enable_wind>
+        <collision name='bonus_zone_left_wall_collision'>
+          <pose>-5 0 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.050000000000000003 3 2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>255</collide_bitmask>
+            </contact>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+                <fdir1>0 0 0</fdir1>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='bonus_zone_right_wall_collision'>
+          <pose>5 0 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.050000000000000003 3 2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>255</collide_bitmask>
+            </contact>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+                <fdir1>0 0 0</fdir1>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='bonus_zone_front_wall_left_part_collision'>
+          <pose>-3.5953872207659705 -1.5 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>2.8092255584680594 0.050000000000000003 2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>255</collide_bitmask>
+            </contact>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+                <fdir1>0 0 0</fdir1>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='bonus_zone_front_wall_right_part_collision'>
+          <pose>2.4046127792340295 -1.5 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>5.190774441531941 0.050000000000000003 2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>255</collide_bitmask>
+            </contact>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+                <fdir1>0 0 0</fdir1>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='bonus_zone_back_wall_collision'>
+          <pose>0 1.5 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>10 0.050000000000000003 2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>255</collide_bitmask>
+            </contact>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+                <fdir1>0 0 0</fdir1>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='bonus_zone_high_beam_collision'>
+          <pose>-1.1907744415319406 -1.25 0.75 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>2 0.5 0.5</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>255</collide_bitmask>
+            </contact>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+                <fdir1>0 0 0</fdir1>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='bonus_zone_left_wall_visual'>
+          <pose>-5 0 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.050000000000000003 3 2</size>
+            </box>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+          <laser_retro>0</laser_retro>
+          <transparency>0</transparency>
+          <visibility_flags>4294967295</visibility_flags>
+          <material>
+            <ambient>1 0.800000012 0.400000006 1</ambient>
+            <diffuse>1 0.800000012 0.400000006 1</diffuse>
+            <specular>1 0.800000012 0.400000006 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <render_order>0</render_order>
+            <lighting>true</lighting>
+            <double_sided>false</double_sided>
+            <shader type='pixel' />
+          </material>
+        </visual>
+        <visual name='bonus_zone_right_wall_visual'>
+          <pose>5 0 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.050000000000000003 3 2</size>
+            </box>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+          <laser_retro>0</laser_retro>
+          <transparency>0</transparency>
+          <visibility_flags>4294967295</visibility_flags>
+          <material>
+            <ambient>1 0.800000012 0.400000006 1</ambient>
+            <diffuse>1 0.800000012 0.400000006 1</diffuse>
+            <specular>1 0.800000012 0.400000006 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <render_order>0</render_order>
+            <lighting>true</lighting>
+            <double_sided>false</double_sided>
+            <shader type='pixel' />
+          </material>
+        </visual>
+        <visual name='bonus_zone_front_wall_left_part_visual'>
+          <pose>-3.5953872207659705 -1.5 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>2.8092255584680594 0.050000000000000003 2</size>
+            </box>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+          <laser_retro>0</laser_retro>
+          <transparency>0</transparency>
+          <visibility_flags>4294967295</visibility_flags>
+          <material>
+            <ambient>1 0.800000012 0.400000006 1</ambient>
+            <diffuse>1 0.800000012 0.400000006 1</diffuse>
+            <specular>1 0.800000012 0.400000006 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <render_order>0</render_order>
+            <lighting>true</lighting>
+            <double_sided>false</double_sided>
+            <shader type='pixel' />
+          </material>
+        </visual>
+        <visual name='bonus_zone_front_wall_right_part_visual'>
+          <pose>2.4046127792340295 -1.5 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>5.190774441531941 0.050000000000000003 2</size>
+            </box>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+          <laser_retro>0</laser_retro>
+          <transparency>0</transparency>
+          <visibility_flags>4294967295</visibility_flags>
+          <material>
+            <ambient>1 0.800000012 0.400000006 1</ambient>
+            <diffuse>1 0.800000012 0.400000006 1</diffuse>
+            <specular>1 0.800000012 0.400000006 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <render_order>0</render_order>
+            <lighting>true</lighting>
+            <double_sided>false</double_sided>
+            <shader type='pixel' />
+          </material>
+        </visual>
+        <visual name='bonus_zone_back_wall_visual'>
+          <pose>0 1.5 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>10 0.050000000000000003 2</size>
+            </box>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+          <laser_retro>0</laser_retro>
+          <transparency>0</transparency>
+          <visibility_flags>4294967295</visibility_flags>
+          <material>
+            <ambient>1 0.800000012 0.400000006 1</ambient>
+            <diffuse>1 0.800000012 0.400000006 1</diffuse>
+            <specular>1 0.800000012 0.400000006 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <render_order>0</render_order>
+            <lighting>true</lighting>
+            <double_sided>false</double_sided>
+            <shader type='pixel' />
+          </material>
+        </visual>
+        <visual name='bonus_zone_high_beam_visual'>
+          <pose>-1.1907744415319406 -1.25 0.75 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>2 0.5 0.5</size>
+            </box>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+          <laser_retro>0</laser_retro>
+          <transparency>0</transparency>
+          <visibility_flags>4294967295</visibility_flags>
+          <material>
+            <ambient>0.5 0 1 1</ambient>
+            <diffuse>0.5 0 1 1</diffuse>
+            <specular>0.5 0 1 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <render_order>0</render_order>
+            <lighting>true</lighting>
+            <double_sided>false</double_sided>
+            <shader type='pixel' />
+          </material>
+        </visual>
+      </link>
+    </model>
     <light name='sun' type='directional'>
       <pose>0 0 500 0 0 0</pose>
       <cast_shadows>true</cast_shadows>
@@ -1912,8 +2265,8 @@
       <plugin name='Select Entities' filename='SelectEntities'>
         <gz-gui>
           <anchors target='Select entities'>
-            <line own='right' target='right'/>
-            <line own='top' target='top'/>
+            <line own='right' target='right' />
+            <line own='top' target='top' />
           </anchors>
           <property key='resizable' type='bool'>false</property>
           <property key='width' type='double'>5</property>
@@ -1934,8 +2287,8 @@
       <plugin name='Spawn Entities' filename='Spawn'>
         <gz-gui>
           <anchors target='Select entities'>
-            <line own='right' target='right'/>
-            <line own='top' target='top'/>
+            <line own='right' target='right' />
+            <line own='top' target='top' />
           </anchors>
           <property key='resizable' type='bool'>false</property>
           <property key='width' type='double'>5</property>
@@ -1954,8 +2307,8 @@
           <property type='double' key='z'>1</property>
           <property type='string' key='state'>floating</property>
           <anchors target='3D View'>
-            <line own='left' target='left'/>
-            <line own='bottom' target='bottom'/>
+            <line own='left' target='left' />
+            <line own='bottom' target='bottom' />
           </anchors>
         </gz-gui>
         <play_pause>1</play_pause>
@@ -1972,8 +2325,8 @@
           <property type='double' key='z'>1</property>
           <property type='string' key='state'>floating</property>
           <anchors target='3D View'>
-            <line own='right' target='right'/>
-            <line own='bottom' target='bottom'/>
+            <line own='right' target='right' />
+            <line own='bottom' target='bottom' />
           </anchors>
         </gz-gui>
         <sim_time>1</sim_time>
@@ -1981,7 +2334,7 @@
         <real_time_factor>1</real_time_factor>
         <iterations>1</iterations>
       </plugin>
-      <plugin name='Entity tree' filename='EntityTree'/>
+      <plugin name='Entity tree' filename='EntityTree' />
     </gui>
     <scene>
       <ambient>0.400000006 0.400000006 0.400000006 1</ambient>
@@ -1990,16 +2343,17 @@
       <origin_visual>true</origin_visual>
       <shadows>true</shadows>
     </scene>
-    <plugin name='gz::sim::systems::Physics' filename='gz-sim-physics-system'/>
-    <plugin name='gz::sim::systems::UserCommands' filename='gz-sim-user-commands-system'/>
-    <plugin name='gz::sim::systems::SceneBroadcaster' filename='gz-sim-scene-broadcaster-system'/>
-    <plugin name='gz::sim::systems::Contact' filename='gz-sim-contact-system'/>
-    <plugin name='gz::sim::systems::Imu' filename='gz-sim-imu-system'/>
-    <plugin name='gz::sim::systems::AirPressure' filename='gz-sim-air-pressure-system'/>
-    <plugin name='gz::sim::systems::ApplyLinkWrench' filename='gz-sim-apply-link-wrench-system'/>
-    <plugin name='gz::sim::systems::NavSat' filename='gz-sim-navsat-system'/>
+    <plugin name='gz::sim::systems::Physics' filename='gz-sim-physics-system' />
+    <plugin name='gz::sim::systems::UserCommands' filename='gz-sim-user-commands-system' />
+    <plugin name='gz::sim::systems::SceneBroadcaster' filename='gz-sim-scene-broadcaster-system' />
+    <plugin name='gz::sim::systems::Contact' filename='gz-sim-contact-system' />
+    <plugin name='gz::sim::systems::Imu' filename='gz-sim-imu-system' />
+    <plugin name='gz::sim::systems::AirPressure' filename='gz-sim-air-pressure-system' />
+    <plugin name='gz::sim::systems::ApplyLinkWrench' filename='gz-sim-apply-link-wrench-system' />
+    <plugin name='gz::sim::systems::NavSat' filename='gz-sim-navsat-system' />
     <plugin name='gz::sim::systems::Sensors' filename='gz-sim-sensors-system'>
       <render_engine>ogre2</render_engine>
     </plugin>
+    <plugin name='gz::sim::systems::PayloadSystem' filename='libPayloadSystem.so' />
   </world>
 </sdf>
