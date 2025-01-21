@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<sdf version='1.9'>
+  <model name="lidar_2d">
+    <pose>0 0 0 0 0 0</pose>
+    <self_collide>false</self_collide>
+    <static>false</static>
+
+
+    <link name="lidar_2d_link">
+      <inertial>
+        <pose>0 0 0.0205 0 0 0</pose>
+        <mass>0.005</mass>
+        <inertia>
+          <ixx>0.0000022004</ixx>
+          <iyy>0.0000022004</iyy>
+          <izz>0.0000030000</izz>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyz>0</iyz>
+        </inertia>
+      </inertial>
+
+      <visual name="lidar_2d_visual">
+        <geometry>
+          <mesh>
+            <uri>model://lidar_2d/meshes/lidar_2d.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="lidar_2d_collision_base">
+        <pose>0 0 0.0205 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.06 0.041</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <collision name="lidar_2d_collision_mid">
+        <pose>0 0 0.055 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.025</radius>
+            <length>0.028</length>
+          </cylinder>
+        </geometry>
+      </collision>
+
+      <collision name="lidar_2d_collision_top">
+        <pose>0 0 0.078 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.056 0.056 0.018</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <sensor type="gpu_lidar" name="lidar_2d_sensor">
+        <pose>0 0 0.055 0 0 0</pose>
+        <ray>
+          <scan>
+            <horizontal>
+              <samples>1080</samples>
+              <resolution>1</resolution>
+              <min_angle>-2.356195</min_angle>
+              <max_angle>2.356195</max_angle>
+            </horizontal>
+          </scan>
+          <range>
+            <min>0.1</min>
+            <max>30</max>
+            <resolution>0.01</resolution>
+          </range>
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.001</stddev>
+          </noise>
+        </ray>
+        <always_on>0</always_on>
+        <update_rate>30</update_rate>
+        <visualize>false</visualize>
+      </sensor>
+    </link>
+  </model>
+</sdf>
