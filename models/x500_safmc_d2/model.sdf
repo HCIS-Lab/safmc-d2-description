@@ -5,19 +5,25 @@
       <uri>model://x500</uri>
       <pose>0 0 0 0 0 0</pose>
     </include>
+
     <include merge='true'>
       <uri>model://pi3_cam</uri>
       <pose>0 0 0.065 0 0 0</pose>
-      <parent>base_link</parent>
     </include>
+    <joint name="pi3_cam_joint" type="fixed">
+      <parent>base_link</parent>
+      <child>pi3_cam_link</child>
+      <pose relative_to="base_link">0 0 0.065 0 0 0</pose>
+    </joint>
+
     <include merge="true">
-      <uri>model://lidar_2d_v2</uri>
-      <pose>.12 0 .26 0 0 0</pose>
+      <uri>model://lidar_2d</uri>
+      <pose>0 0 0.3 0 0 0</pose>
     </include>
-    <joint name="LidarJoint" type="fixed">
+    <joint name="lidar_2d_joint" type="fixed">
       <parent>base_link</parent>
-      <child>link</child>
-      <pose relative_to="base_link">-.1 0 .26 0 0 0</pose>
+      <child>lidar_2d_link</child>
+      <pose relative_to="base_link">0 0 0.3 0 0 0</pose>
     </joint>
   </model>
 </sdf>
