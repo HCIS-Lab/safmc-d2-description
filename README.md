@@ -1,6 +1,6 @@
 # SAFME D2 Description
 
-TODO: repo description
+Gazebo simulation environment for the SAFMC drone competition, [PX4-Autopilot](https://github.com/PX4/PX4-Autopilot/tree/release/1.15) integration as a submodule.
 
 ![Screenshot](docs/Screenshot%20from%202025-01-28%2014-22-15.png)
 
