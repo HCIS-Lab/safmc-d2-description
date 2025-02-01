@@ -12,9 +12,16 @@ Gazebo simulation environment for the SAFMC D2 competition, [PX4-Autopilot](http
 
 ```sh
 rm /tmp/.px4.setup
+rm /tmp/.px4.build
 
-chmod +x px4_setup.sh run.sh
-. ./px4_setup.sh
+chmod +x px4_setup.bash run.bash
 
-./run.sh
+source ./px4_setup.bash
+
+./run.bash start 1
+./run.bash start 2
+./run.bash start 3
+./run.bash start 4
+
+./run.bash stop
 ```
