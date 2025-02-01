@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+
+# ref: https://docs.px4.io/main/en/sim_gazebo_gz
+
 set -e
 cd PX4-Autopilot
 
@@ -42,11 +45,11 @@ start_px4() {
     fi
 
     if [[ "$foreground" == "true" ]]; then
-        PX4_SIM_MODEL=gz_x500_safmc_d2 PX4_GZ_MODEL_POSE="0,-$((10 - index)),0,0,0,0" ./build/px4_sitl_default/bin/px4 -i "$index"
+        PX4_SYS_AUTOSTART=4012 PX4_SIM_MODEL=gz_x500_safmc_d2 PX4_GZ_MODEL_POSE="0,-$((10 - index)),0,0,0,0" ./build/px4_sitl_default/bin/px4 -i "$index"
         echo $! > "$target_pid_file"
         echo "Started PX4 instance with index $index in the foreground."
     else
-        PX4_SIM_MODEL=gz_x500_safmc_d2 PX4_GZ_MODEL_POSE="0,-$((10 - index)),0,0,0,0" ./build/px4_sitl_default/bin/px4 -i "$index" > /dev/null &
+        PX4_SYS_AUTOSTART=4012 PX4_SIM_MODEL=gz_x500_safmc_d2 PX4_GZ_MODEL_POSE="0,-$((10 - index)),0,0,0,0" ./build/px4_sitl_default/bin/px4 -i "$index" > /dev/null &
         echo $! > "$target_pid_file"
         echo "Started PX4 instance with index $index in the background."
     fi
