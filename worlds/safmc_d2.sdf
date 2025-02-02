@@ -663,7 +663,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>2.5637179387767439 -5.248916830556551 0 0 0 0</pose>
+      <pose>-8.4692113224499685 -4.1408940372563325 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -778,7 +778,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-6.4909059140113845 3.1846771755615695 0 0 0 0</pose>
+      <pose>-2.7592913593649531 -4.3462787350035654 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -893,7 +893,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-8.1874904082095128 -2.2920444658094699 0 0 0 0</pose>
+      <pose>-9.3658545157828659 7.8459150028764419 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1008,7 +1008,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-9.4356294476958666 0.88054417516991279 0 0 0 0</pose>
+      <pose>9.1197927031816874 -4.7755579771943975 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1123,7 +1123,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-7.1745662664101006 -4.0750612085902613 0 0 0 0</pose>
+      <pose>0.95052461342893935 4.6585014607410269 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1238,7 +1238,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>9.898255406579139 2.6723496439062782 0 0 0 0</pose>
+      <pose>-3.2203052476659728 -1.546110444456561 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1353,7 +1353,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>5.4178580975489545 2.1753100297956944 0 0 0 0</pose>
+      <pose>2.6752813395231723 -5.5113842222888412 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1468,7 +1468,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>8.9516167791831407 -1.5342141233394599 0 0 0 0</pose>
+      <pose>-1.4890190878472342 -0.87653756971509189 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1583,7 +1583,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>4.2732259723167836 -5.4267956995181841 0 0 0 0</pose>
+      <pose>8.8969181397837858 1.4274721728432151 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1698,7 +1698,7 @@
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-1.1271580882036218 4.5814908216542829 0 0 0 0</pose>
+      <pose>-5.5081248513602921 -1.4109804211772499 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1874,10 +1874,10 @@
           </surface>
         </collision>
         <collision name='bonus_zone_front_wall_left_part_collision'>
-          <pose>-2.1084557540874673 -1.5 0 0 0 0</pose>
+          <pose>-4.4447125863855019 -1.5 0 0 0 0</pose>
           <geometry>
             <box>
-              <size>5.7830884918250653 0.050000000000000003 2</size>
+              <size>1.1105748272289961 0.050000000000000003 2</size>
             </box>
           </geometry>
           <surface>
@@ -1896,10 +1896,10 @@
           </surface>
         </collision>
         <collision name='bonus_zone_front_wall_right_part_collision'>
-          <pose>3.8915442459125327 -1.5 0 0 0 0</pose>
+          <pose>1.5552874136144981 -1.5 0 0 0 0</pose>
           <geometry>
             <box>
-              <size>2.2169115081749342 0.050000000000000003 2</size>
+              <size>6.8894251727710039 0.050000000000000003 2</size>
             </box>
           </geometry>
           <surface>
@@ -1940,7 +1940,7 @@
           </surface>
         </collision>
         <collision name='bonus_zone_high_beam_collision'>
-          <pose>1.7830884918250658 -1.25 0.75 0 0 0</pose>
+          <pose>-2.8894251727710039 -1.25 0.75 0 0 0</pose>
           <geometry>
             <box>
               <size>2 0.5 0.5</size>
@@ -2006,10 +2006,10 @@
           </material>
         </visual>
         <visual name='bonus_zone_front_wall_left_part_visual'>
-          <pose>-2.1084557540874673 -1.5 0 0 0 0</pose>
+          <pose>-4.4447125863855019 -1.5 0 0 0 0</pose>
           <geometry>
             <box>
-              <size>5.7830884918250653 0.050000000000000003 2</size>
+              <size>1.1105748272289961 0.050000000000000003 2</size>
             </box>
           </geometry>
           <cast_shadows>true</cast_shadows>
@@ -2028,10 +2028,10 @@
           </material>
         </visual>
         <visual name='bonus_zone_front_wall_right_part_visual'>
-          <pose>3.8915442459125327 -1.5 0 0 0 0</pose>
+          <pose>1.5552874136144981 -1.5 0 0 0 0</pose>
           <geometry>
             <box>
-              <size>2.2169115081749342 0.050000000000000003 2</size>
+              <size>6.8894251727710039 0.050000000000000003 2</size>
             </box>
           </geometry>
           <cast_shadows>true</cast_shadows>
@@ -2072,7 +2072,7 @@
           </material>
         </visual>
         <visual name='bonus_zone_high_beam_visual'>
-          <pose>1.7830884918250658 -1.25 0.75 0 0 0</pose>
+          <pose>-2.8894251727710039 -1.25 0.75 0 0 0</pose>
           <geometry>
             <box>
               <size>2 0.5 0.5</size>
@@ -2228,10 +2228,9 @@
       <plugin name='World control' filename='WorldControl'>
         <gz-gui>
           <title>World control</title>
-          <property type='bool' key='showTitleBar'>0</property>
-          <property type='bool' key='resizable'>0</property>
+          <property type='bool' key='showTitleBar'>false</property>
+          <property type='bool' key='resizable'>false</property>
           <property type='double' key='height'>72</property>
-          <property type='double' key='width'>121</property>
           <property type='double' key='z'>1</property>
           <property type='string' key='state'>floating</property>
           <anchors target='3D View'>
@@ -2239,15 +2238,16 @@
             <line own='bottom' target='bottom'/>
           </anchors>
         </gz-gui>
-        <play_pause>1</play_pause>
-        <step>1</step>
-        <start_paused>1</start_paused>
+        <play_pause>true</play_pause>
+        <step>true</step>
+        <start_paused>true</start_paused>
+        <use_event>true</use_event>
       </plugin>
       <plugin name='World stats' filename='WorldStats'>
         <gz-gui>
           <title>World stats</title>
-          <property type='bool' key='showTitleBar'>0</property>
-          <property type='bool' key='resizable'>0</property>
+          <property type='bool' key='showTitleBar'>false</property>
+          <property type='bool' key='resizable'>false</property>
           <property type='double' key='height'>110</property>
           <property type='double' key='width'>290</property>
           <property type='double' key='z'>1</property>
@@ -2257,12 +2257,26 @@
             <line own='bottom' target='bottom'/>
           </anchors>
         </gz-gui>
-        <sim_time>1</sim_time>
-        <real_time>1</real_time>
-        <real_time_factor>1</real_time_factor>
-        <iterations>1</iterations>
+        <sim_time>true</sim_time>
+        <real_time>true</real_time>
+        <real_time_factor>true</real_time_factor>
+        <iterations>true</iterations>
       </plugin>
-      <plugin name='Entity tree' filename='EntityTree'/>
+      <plugin name='Component inspector' filename='ComponentInspector'>
+        <gz-gui>
+          <property type='string' key='state'>docked_collapsed</property>
+        </gz-gui>
+      </plugin>
+      <plugin name='Entity tree' filename='EntityTree'>
+        <gz-gui>
+          <property type='string' key='state'>docked_collapsed</property>
+        </gz-gui>
+      </plugin>
+      <plugin name='View angle' filename='ViewAngle'>
+        <gz-gui>
+          <property type='string' key='state'>docked_collapsed</property>
+        </gz-gui>
+      </plugin>
     </gui>
     <scene>
       <ambient>0.400000006 0.400000006 0.400000006 1</ambient>
