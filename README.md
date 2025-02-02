@@ -11,6 +11,8 @@ Gazebo simulation environment for the SAFMC D2 competition, [PX4-Autopilot](http
 > Manually change line 11 from `matplotlib>=3.0.*` to `matplotlib>=3.0`. This will be fixed in PX4-Autopilot version 1.16.
 
 ```sh
+pip install symforce
+
 rm /tmp/.px4.setup
 rm /tmp/.px4.build
 

@@ -1,32 +1,35 @@
 #!/usr/bin/env bash
-# set -e
 
 export GZ_SIM_RESOURCE_PATH=$(pwd)/models:$(pwd)/worlds
 export PX4_GZ_WORLD="safmc_d2"
 
 git submodule update --init --recursive
 
-if [ ! -e /tmp/.px4.setup ]; then
+# Setup PX4
+if [[ ! -e /tmp/.px4.setup ]]; then
     bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
     touch /tmp/.px4.setup
 fi
 
-read -p "Regenerate safmc_d2 world? [y/N]: " user_input
-if echo "$user_input" | grep -iq "^y"; then
+# Regenerate a new world (or not)
+read -rp "Regenerate safmc_d2 world? [y/N]: " user_input
+if [[ "${user_input,,}" == "y" ]]; then
     echo "Regenerating the world..."
 
-    if command -v python3 >/dev/null; then
-        SDF_PATH="$(pwd)/models" python3 utils/generate_world.py
-    elif command -v python >/dev/null; then
-        SDF_PATH="$(pwd)/models" python utils/generate_world.py
+    # 檢查 Python
+    if command -v python3 &>/dev/null; then
+        python_exec="python3"
+    elif command -v python &>/dev/null; then
+        python_exec="python"
     else
         echo "Error: Python not found."
-        return 1
+        exit 1
     fi
 
-    if [ $? -ne 0 ]; then
+    # Generate a new world
+    if ! SDF_PATH="$(pwd)/models" "$python_exec" utils/generate_world.py; then
         echo "Error: Python script execution failed."
-        return 1
+        exit 1
     fi
 
     echo "World regenerated."
@@ -34,16 +37,19 @@ else
     echo "Skipped."
 fi
 
+# Copy safmc_d2 world file
 echo "Copying world file..."
 cp ./worlds/safmc_d2.sdf ./PX4-Autopilot/Tools/simulation/gz/worlds
 
+# Copy configuration files
 find "./PX4-Autopilot.config" -type f | while read -r file; do
     relative_path="${file#./PX4-Autopilot.config/}"
     mkdir -p "./PX4-Autopilot/$(dirname "$relative_path")"
     cp "$file" "./PX4-Autopilot/$relative_path"
 done
 
-if [ ! -e /tmp/.px4.build ]; then
+# Build PX4 SITL
+if [[ ! -e /tmp/.px4.build ]]; then
     cd PX4-Autopilot
     make px4_sitl
     touch /tmp/.px4.build
