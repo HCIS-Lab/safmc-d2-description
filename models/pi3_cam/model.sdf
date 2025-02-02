@@ -43,14 +43,13 @@
 
       <sensor type="camera" name="pi3_cam_sensor">
         <pose>0 0.5 0 0 1.570796325 0</pose> <!-- -1.5708 -> -90deg -> to bottom -->
-
-        <topic>/camera/image</topic>
+        <!-- <topic>/camera/image</topic> -->
         <always_on>1</always_on>
         <update_rate>30</update_rate> <!-- update rate-->
         <visualize>true</visualize>
         <!-- <gz_frame_id>camera_rgb_frame</gz_frame_id> -->
         <camera>
-          <camera_info_topic>/camera/camera_info</camera_info_topic>
+          <!-- <camera_info_topic>/camera/camera_info</camera_info_topic> -->
           <horizontal_fov>1.047</horizontal_fov>
           <image>
             <width>1080</width> <!-- resolution -->
