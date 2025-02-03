@@ -4,7 +4,7 @@
 
 cd PX4-Autopilot || { echo "Failed to cd into PX4-Autopilot directory"; exit 1; }
 
-readonly PID_FILE="/tmp/.px4.pid"
+readonly PID_FILE_PREFIX="/tmp/.px4.pid"
 
 stop_px4() {
     echo "Stopping all PX4 instances..."
@@ -18,7 +18,7 @@ stop_px4() {
             else
                 echo "PX4 instance with PID $pid is already stopped."
             fi
-            rm -f "$pid_file"
+            rm -f "$pid_file" # TODO 可能需要 check PID 是否真的終止了才刪除檔案
         fi
     done
 
@@ -36,22 +36,22 @@ stop_px4() {
 start_px4() {
     local index="$1"
     local foreground="${2:-false}"
-    local target_pid_file="$PID_FILE.$index"
+    local pid_file="$PID_FILE_PREFIX.$index"
 
-    if [[ -f "$target_pid_file" ]]; then
+    if [[ -f "$pid_file" ]]; then
         echo "PX4 instance with index $index is already running. Use 'stop' to stop it first."
         exit 1
     fi
 
-    local command="PX4_SYS_AUTOSTART=4012 PX4_SIM_MODEL=gz_x500_safmc_d2 PX4_GZ_MODEL_POSE=\"0,-$((10 - index)),0,0,0,0\" ./build/px4_sitl_default/bin/px4 -i \"$index\""
+    local command="PX4_SYS_AUTOSTART=4012 PX4_SIM_MODEL=gz_x500_safmc_d2 PX4_GZ_MODEL_POSE=\"$(echo "$index - 2.5" | bc),-9,0,0,0,0\" ./build/px4_sitl_default/bin/px4 -i \"$index\""
     
     if [[ "$foreground" == "true" ]]; then
         eval "$command"
-        echo $! > "$target_pid_file"
+        echo $! > "$pid_file"
         echo "Started PX4 instance with index $index in the foreground."
     else
         eval "$command > /dev/null &"
-        echo $! > "$target_pid_file"
+        echo $! > "$pid_file"
         echo "Started PX4 instance with index $index in the background."
     fi
 }

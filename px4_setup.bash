@@ -52,5 +52,6 @@ done
 if [[ ! -e /tmp/.px4.build ]]; then
     cd PX4-Autopilot
     make px4_sitl
+    cd ..
     touch /tmp/.px4.build
 fi
