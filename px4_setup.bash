@@ -55,3 +55,7 @@ if [[ ! -e /tmp/.px4.build ]]; then
     cd ..
     touch /tmp/.px4.build
 fi
+
+# Gazebo System (Plugin)
+export GZ_SIM_SYSTEM_PLUGIN_PATH=/workspace/safmc-d2-gazebo/build/payload_system:/workspace/safmc-d2-gazebo/build/position_system
+source /workspace/safmc-d2-gazebo/install/setup.bash

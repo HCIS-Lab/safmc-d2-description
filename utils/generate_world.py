@@ -39,6 +39,7 @@ def generate_small_pillar_obstacle_coords(num_coords, min_distance, x_range, y_r
 
     return coords
 
+
 def generate_random_entrance(entrance_size, left_coord, right_coord):
     entance_position = random.uniform(left_coord + entrance_size / 2 + 0.1, right_coord - entrance_size / 2 - 0.1)
     left_wall_length = entance_position - entrance_size / 2 - left_coord
@@ -46,6 +47,7 @@ def generate_random_entrance(entrance_size, left_coord, right_coord):
     right_wall_length = right_coord - entrance_size / 2 - entance_position
     right_wall_position = right_coord - right_wall_length / 2.0
     return left_wall_length, left_wall_position, right_wall_length, right_wall_position, entance_position
+
 
 def load_model(filename: str):
     root = sdf.Root()
@@ -70,7 +72,7 @@ def main():
 
     # Drop Zone
     for i in range(3):
-        drop_zone_model.set_name(f'drop_zone_{i:02d}')
+        drop_zone_model.set_name(f'drop_zone_{i+1}')
         if i == 2:
             drop_zone_model.set_raw_pose(
                 Pose3d(drop_zone_coords[i][0], drop_zone_coords[i][1], 0, 0, 0, 1.570796))
@@ -80,7 +82,7 @@ def main():
         world.add_model(drop_zone_model)
 
     # Large Pillar Obstacle
-    large_pillar_obstacle_model.set_name(f'large_pillar_obstacle_{0:02d}')
+    large_pillar_obstacle_model.set_name(f'large_pillar_obstacle_1')
     large_pillar_obstacle_model.set_raw_pose(Pose3d(
         large_pillar_obstacle_coord[0], large_pillar_obstacle_coord[1], 0, 0, 0, 0))
     world.add_model(large_pillar_obstacle_model)
@@ -93,14 +95,15 @@ def main():
         (-6.0, 10.0),
     )
     for i in range(num_small_pillar_obstacles):
-        small_pillar_obstacle_model.set_name(f'small_pillar_obstacle_{i:02d}')
+        small_pillar_obstacle_model.set_name(f'small_pillar_obstacle_{i+1}')
         small_pillar_obstacle_model.set_raw_pose(Pose3d(
             small_pillar_obstacle_coords[i][0], small_pillar_obstacle_coords[i][1], 0, 0, 0, 0))
         world.add_model(small_pillar_obstacle_model)
 
     # Bonus zone
     entrance_size = 2
-    left_wall_length, left_wall_position, right_wall_length, right_wall_position, entrance_position = generate_random_entrance(entrance_size, -5, 5)
+    left_wall_length, left_wall_position, right_wall_length, right_wall_position, entrance_position = generate_random_entrance(
+        entrance_size, -5, 5)
 
     left_wall_link = bonus_zone_model.link_by_name("link")
 
@@ -130,9 +133,9 @@ def main():
 
     bonus_zone_model.set_raw_pose(
         Pose3d(bonus_zone_coord[0],
-            bonus_zone_coord[1],
-            bonus_zone_coord[2], 
-            0, 0, 0)
+               bonus_zone_coord[1],
+               bonus_zone_coord[2],
+               0, 0, 0)
     )
     bonus_zone_model.set_name('bonus_zone')
     world.add_model(bonus_zone_model)

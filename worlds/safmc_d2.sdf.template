@@ -493,10 +493,8 @@
     <plugin name="gz::sim::systems::Sensors" filename="gz-sim-sensors-system">
       <render_engine>ogre2</render_engine>
     </plugin>
-    <plugin
-      filename="libPayloadSystem.so"
-      name="gz::sim::systems::PayloadSystem">
-    </plugin>
+    <plugin name='gz::sim::systems::PayloadSystem' filename='libPayloadSystem.so' />
+    <plugin name='gz::sim::systems::PositionSystem' filename='libPositionSystem.so' />
 
   </world>
 </sdf>

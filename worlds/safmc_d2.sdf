@@ -313,7 +313,7 @@
       <pose>8 -9 0 0 0 0</pose>
       <static>false</static>
     </include>
-    <model name='drop_zone_00'>
+    <model name='drop_zone_1'>
       <static>true</static>
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
@@ -405,7 +405,7 @@
         </visual>
       </link>
     </model>
-    <model name='drop_zone_01'>
+    <model name='drop_zone_2'>
       <static>true</static>
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
@@ -497,7 +497,7 @@
         </visual>
       </link>
     </model>
-    <model name='drop_zone_02'>
+    <model name='drop_zone_3'>
       <static>true</static>
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
@@ -589,7 +589,7 @@
         </visual>
       </link>
     </model>
-    <model name='large_pillar_obstacle_00'>
+    <model name='large_pillar_obstacle_1'>
       <static>true</static>
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
@@ -658,12 +658,12 @@
         </visual>
       </link>
     </model>
-    <model name='small_pillar_obstacle_00'>
+    <model name='small_pillar_obstacle_1'>
       <static>true</static>
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-8.4692113224499685 -4.1408940372563325 0 0 0 0</pose>
+      <pose>-4.0236240619074248 4.1266570120248911 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -773,12 +773,12 @@
         </visual>
       </link>
     </model>
-    <model name='small_pillar_obstacle_01'>
+    <model name='small_pillar_obstacle_2'>
       <static>true</static>
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-2.7592913593649531 -4.3462787350035654 0 0 0 0</pose>
+      <pose>-8.0363842671225605 6.6161559863548955 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -888,12 +888,12 @@
         </visual>
       </link>
     </model>
-    <model name='small_pillar_obstacle_02'>
+    <model name='small_pillar_obstacle_3'>
       <static>true</static>
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-9.3658545157828659 7.8459150028764419 0 0 0 0</pose>
+      <pose>7.4804495326754292 -5.1123208027484228 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1003,12 +1003,12 @@
         </visual>
       </link>
     </model>
-    <model name='small_pillar_obstacle_03'>
+    <model name='small_pillar_obstacle_4'>
       <static>true</static>
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>9.1197927031816874 -4.7755579771943975 0 0 0 0</pose>
+      <pose>-1.8443644797086627 -5.438405207110339 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1118,12 +1118,12 @@
         </visual>
       </link>
     </model>
-    <model name='small_pillar_obstacle_04'>
+    <model name='small_pillar_obstacle_5'>
       <static>true</static>
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>0.95052461342893935 4.6585014607410269 0 0 0 0</pose>
+      <pose>-0.60414560120293181 -0.012739453788748634 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1233,12 +1233,12 @@
         </visual>
       </link>
     </model>
-    <model name='small_pillar_obstacle_05'>
+    <model name='small_pillar_obstacle_6'>
       <static>true</static>
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-3.2203052476659728 -1.546110444456561 0 0 0 0</pose>
+      <pose>-8.1038513688838503 3.5270213440076805 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1348,12 +1348,12 @@
         </visual>
       </link>
     </model>
-    <model name='small_pillar_obstacle_06'>
+    <model name='small_pillar_obstacle_7'>
       <static>true</static>
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>2.6752813395231723 -5.5113842222888412 0 0 0 0</pose>
+      <pose>-2.460976626565536 -4.0707407163792197 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1463,12 +1463,12 @@
         </visual>
       </link>
     </model>
-    <model name='small_pillar_obstacle_07'>
+    <model name='small_pillar_obstacle_8'>
       <static>true</static>
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-1.4890190878472342 -0.87653756971509189 0 0 0 0</pose>
+      <pose>2.2764618600860373 1.8652359477451625 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1578,12 +1578,12 @@
         </visual>
       </link>
     </model>
-    <model name='small_pillar_obstacle_08'>
+    <model name='small_pillar_obstacle_9'>
       <static>true</static>
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>8.8969181397837858 1.4274721728432151 0 0 0 0</pose>
+      <pose>-6.1839410573635618 0.70587139206237559 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1693,12 +1693,12 @@
         </visual>
       </link>
     </model>
-    <model name='small_pillar_obstacle_09'>
+    <model name='small_pillar_obstacle_10'>
       <static>true</static>
       <self_collide>false</self_collide>
       <allow_auto_disable>true</allow_auto_disable>
       <enable_wind>false</enable_wind>
-      <pose>-5.5081248513602921 -1.4109804211772499 0 0 0 0</pose>
+      <pose>8.9544128314165334 -5.9906241073743676 0 0 0 0</pose>
       <link name='link'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -1874,10 +1874,10 @@
           </surface>
         </collision>
         <collision name='bonus_zone_front_wall_left_part_collision'>
-          <pose>-4.4447125863855019 -1.5 0 0 0 0</pose>
+          <pose>-2.5693383035597224 -1.5 0 0 0 0</pose>
           <geometry>
             <box>
-              <size>1.1105748272289961 0.050000000000000003 2</size>
+              <size>4.8613233928805553 0.050000000000000003 2</size>
             </box>
           </geometry>
           <surface>
@@ -1896,10 +1896,10 @@
           </surface>
         </collision>
         <collision name='bonus_zone_front_wall_right_part_collision'>
-          <pose>1.5552874136144981 -1.5 0 0 0 0</pose>
+          <pose>3.4306616964402776 -1.5 0 0 0 0</pose>
           <geometry>
             <box>
-              <size>6.8894251727710039 0.050000000000000003 2</size>
+              <size>3.1386766071194443 0.050000000000000003 2</size>
             </box>
           </geometry>
           <surface>
@@ -1940,7 +1940,7 @@
           </surface>
         </collision>
         <collision name='bonus_zone_high_beam_collision'>
-          <pose>-2.8894251727710039 -1.25 0.75 0 0 0</pose>
+          <pose>0.8613233928805557 -1.25 0.75 0 0 0</pose>
           <geometry>
             <box>
               <size>2 0.5 0.5</size>
@@ -2006,10 +2006,10 @@
           </material>
         </visual>
         <visual name='bonus_zone_front_wall_left_part_visual'>
-          <pose>-4.4447125863855019 -1.5 0 0 0 0</pose>
+          <pose>-2.5693383035597224 -1.5 0 0 0 0</pose>
           <geometry>
             <box>
-              <size>1.1105748272289961 0.050000000000000003 2</size>
+              <size>4.8613233928805553 0.050000000000000003 2</size>
             </box>
           </geometry>
           <cast_shadows>true</cast_shadows>
@@ -2028,10 +2028,10 @@
           </material>
         </visual>
         <visual name='bonus_zone_front_wall_right_part_visual'>
-          <pose>1.5552874136144981 -1.5 0 0 0 0</pose>
+          <pose>3.4306616964402776 -1.5 0 0 0 0</pose>
           <geometry>
             <box>
-              <size>6.8894251727710039 0.050000000000000003 2</size>
+              <size>3.1386766071194443 0.050000000000000003 2</size>
             </box>
           </geometry>
           <cast_shadows>true</cast_shadows>
@@ -2072,7 +2072,7 @@
           </material>
         </visual>
         <visual name='bonus_zone_high_beam_visual'>
-          <pose>-2.8894251727710039 -1.25 0.75 0 0 0</pose>
+          <pose>0.8613233928805557 -1.25 0.75 0 0 0</pose>
           <geometry>
             <box>
               <size>2 0.5 0.5</size>
@@ -2297,5 +2297,6 @@
       <render_engine>ogre2</render_engine>
     </plugin>
     <plugin name='gz::sim::systems::PayloadSystem' filename='libPayloadSystem.so'/>
+    <plugin name='gz::sim::systems::PositionSystem' filename='libPositionSystem.so'/>
   </world>
 </sdf>
