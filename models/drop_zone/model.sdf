@@ -29,9 +29,9 @@
                     </plane>
                 </geometry>
                 <material>
-                    <ambient>0 0.9 0 0.5</ambient>
-                    <diffuse>0 0.9 0 0.5</diffuse>
-                    <specular>0 0.9 0 0.5</specular>
+                    <ambient>0 0.9 0 0.75</ambient>
+                    <diffuse>0 0.9 0 0.75</diffuse>
+                    <specular>0 0.9 0 0.75</specular>
                 </material>
             </visual>
 
@@ -44,9 +44,9 @@
                     </plane>
                 </geometry>
                 <material>
-                    <ambient>0 0 0.9 0.5</ambient>
-                    <diffuse>0 0 0.9 0.5</diffuse>
-                    <specular>0 0 0.9 0.5</specular>
+                    <ambient>0 0 0.9 0.75</ambient>
+                    <diffuse>0 0 0.9 0.75</diffuse>
+                    <specular>0 0 0.9 0.75</specular>
                 </material>
             </visual>
 

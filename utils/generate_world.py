@@ -7,12 +7,13 @@ from gz.math7 import Vector3d, Pose3d
 
 world_file = './worlds/safmc_d2.sdf.template'
 
-num_small_pillar_obstacles = 10
+num_small_pillar_obstacles = 15
 
 drop_zone_coords = [
-    (-6.2135, 5.65797),
-    (-4.98951, -4.52046),
-    (7.21815, 0.43991),
+    (-6.2, 5.6),
+    (-5.0, -4.5),
+    (7.2, 0.4),
+    (5, 8.5), # Bonus zone
 ]
 
 large_pillar_obstacle_coord = (3.22409, -3.19984)
@@ -71,7 +72,7 @@ def main():
     world = root.world_by_index(0)
 
     # Drop Zone
-    for i in range(3):
+    for i in range(4):
         drop_zone_model.set_name(f'drop_zone_{i+1}')
         if i == 2:
             drop_zone_model.set_raw_pose(
