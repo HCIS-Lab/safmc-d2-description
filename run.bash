@@ -71,11 +71,27 @@ main() {
 
             start_px4 "$2" "$foreground"
             ;;
+        start-range)
+            if [[ -z "${2:-}" ]]; then
+                echo "Usage: $0 start-range <max-index> [--foreground|-f]"
+                exit 1
+            fi
+
+            local foreground="false"
+            if [[ "${3:-}" == "--foreground" || "${3:-}" == "-f" ]]; then
+                foreground="true"
+            fi
+
+            for ((i = 1; i <= "$2"; i++)); do
+                echo "Starting instance $i"
+                start_px4 "$i" $foreground
+            done
+            ;;
         stop)
             stop_px4
             ;;
         *)
-            echo "Usage: $0 {start <index> [--foreground|-f] | stop}"
+            echo "Usage: $0 {start <index> [--foreground|-f] | start-range <max-index> | stop}"
             exit 1
             ;;
     esac
