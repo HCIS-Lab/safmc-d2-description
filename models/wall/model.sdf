@@ -5,27 +5,27 @@
         <static>true</static>
 
         <link name="link">
-            <collision name="collision">
+            <!-- <collision name="collision">
                 <pose>0 0 0 0 0 0</pose>
                 <geometry>
                     <box>
                         <size>20.0 0.2 4.0</size>
                     </box>
                 </geometry>
-            </collision>
+            </collision> -->
 
             <visual name="visual">
                 <cast_shadows>false</cast_shadows>
                 <pose>0 0 0 0 0 0</pose>
                 <geometry>
                     <box>
-                        <size>20.0 0.2 4.0</size>
+                        <size>20.0 0.2 8.0</size>
                     </box>
                 </geometry>
                 <material>
-                    <ambient>0.8 0.8 0.8 1</ambient>
-                    <diffuse>0.8 0.8 0.8 1</diffuse>
-                    <specular>0.8 0.8 0.8 1</specular>
+                    <ambient>0 0 0 0.3</ambient>
+                    <diffuse>0 0 0 0.3</diffuse>
+                    <specular>0 0 0 0.3</specular>
                 </material>
             </visual>
 

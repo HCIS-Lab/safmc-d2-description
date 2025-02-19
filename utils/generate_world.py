@@ -5,6 +5,8 @@ import random
 
 from gz.math7 import Vector3d, Pose3d
 
+ENABLE_OBSTACLE = False
+
 world_file = './worlds/safmc_d2.sdf.template'
 
 num_small_pillar_obstacles = 15
@@ -13,7 +15,7 @@ drop_zone_coords = [
     (-6.2, 5.6),
     (-5.0, -4.5),
     (7.2, 0.4),
-    (5, 8.5), # Bonus zone
+    (5, 8.5),  # Bonus zone
 ]
 
 large_pillar_obstacle_coord = (3.22409, -3.19984)
@@ -82,24 +84,25 @@ def main():
                 Pose3d(drop_zone_coords[i][0], drop_zone_coords[i][1], 0, 0, 0, 0))
         world.add_model(drop_zone_model)
 
-    # Large Pillar Obstacle
-    large_pillar_obstacle_model.set_name(f'large_pillar_obstacle_1')
-    large_pillar_obstacle_model.set_raw_pose(Pose3d(
-        large_pillar_obstacle_coord[0], large_pillar_obstacle_coord[1], 0, 0, 0, 0))
-    world.add_model(large_pillar_obstacle_model)
+    if ENABLE_OBSTACLE:
+        # Large Pillar Obstacle
+        large_pillar_obstacle_model.set_name(f'large_pillar_obstacle_1')
+        large_pillar_obstacle_model.set_raw_pose(Pose3d(
+            large_pillar_obstacle_coord[0], large_pillar_obstacle_coord[1], 0, 0, 0, 0))
+        world.add_model(large_pillar_obstacle_model)
 
-    # Small Pillar Obstacle
-    small_pillar_obstacle_coords = generate_small_pillar_obstacle_coords(
-        num_small_pillar_obstacles,
-        1.0 + 2 * 0.15,
-        (-10.0, 10.0),
-        (-6.0, 10.0),
-    )
-    for i in range(num_small_pillar_obstacles):
-        small_pillar_obstacle_model.set_name(f'small_pillar_obstacle_{i+1}')
-        small_pillar_obstacle_model.set_raw_pose(Pose3d(
-            small_pillar_obstacle_coords[i][0], small_pillar_obstacle_coords[i][1], 0, 0, 0, 0))
-        world.add_model(small_pillar_obstacle_model)
+        # Small Pillar Obstacle
+        small_pillar_obstacle_coords = generate_small_pillar_obstacle_coords(
+            num_small_pillar_obstacles,
+            1.0 + 2 * 0.15,
+            (-10.0, 10.0),
+            (-6.0, 10.0),
+        )
+        for i in range(num_small_pillar_obstacles):
+            small_pillar_obstacle_model.set_name(f'small_pillar_obstacle_{i+1}')
+            small_pillar_obstacle_model.set_raw_pose(Pose3d(
+                small_pillar_obstacle_coords[i][0], small_pillar_obstacle_coords[i][1], 0, 0, 0, 0))
+            world.add_model(small_pillar_obstacle_model)
 
     # Bonus zone
     entrance_size = 2
